@@ -36,7 +36,6 @@ QByteArray parsing (QString data_from_client)
     {
         QStringList data_from_client_list = data_from_client.split(QLatin1Char('&'));
         QString log, pass;
-        QString NoF = data_from_client_list.at(0);
 
         if(data_from_client_list.front() == "reg")
         {
@@ -44,7 +43,7 @@ QByteArray parsing (QString data_from_client)
             log = data_from_client_list.front();
             data_from_client_list.pop_front();
             pass = data_from_client_list.front();
-            return reg(data_from_client_list.at(0), data_from_client_list.at(1));
+            return reg(log, pass);
         }
         if(data_from_client_list.front() == "auth")
         {
@@ -52,7 +51,7 @@ QByteArray parsing (QString data_from_client)
             log = data_from_client_list.front();
             data_from_client_list.pop_front();
             pass = data_from_client_list.front();
-            return auth(data_from_client_list.at(0), data_from_client_list.at(1));
+            return auth(log, pass);
         }
     } else
     {
