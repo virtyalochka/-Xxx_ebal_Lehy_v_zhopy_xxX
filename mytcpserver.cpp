@@ -1,13 +1,19 @@
 #include "mytcpserver.h"
+#include "functionsforserver.h"
 #include <QDebug>
 #include <QCoreApplication>
 
+//! \brief Деструктор объекта сервера
+//!
 MyTcpServer::~MyTcpServer()
 {
     mTcpServer->close();
     //server_status=0;
 }
 
+//! \brief Конструктор объекта сервера
+//! \details Производит инициализацию объекта сервера с уведомлением о статусе сервера
+//!
 MyTcpServer::MyTcpServer(QObject *parent) : QObject(parent){
     mTcpServer = new QTcpServer(this);
     connect(mTcpServer, &QTcpServer::newConnection, this, &MyTcpServer::slotNewConnection);
@@ -20,6 +26,9 @@ MyTcpServer::MyTcpServer(QObject *parent) : QObject(parent){
     }
 }
 
+//! \brief Слот нового подключения
+//! \details Создаёт новый объект сокета, инициализирует его и производит запись в список клиентов
+//!
 void MyTcpServer::slotNewConnection(){
  //   if(server_status==1){
         QTcpSocket* client;
@@ -28,15 +37,15 @@ void MyTcpServer::slotNewConnection(){
         clients.push_back(client);
         qDebug() << "Some client was connected";
 
-        client->write("Hello, I am echo server! You've connected to me!\r\n");
-
         connect(client, &QTcpSocket::readyRead, this, &MyTcpServer::slotServerRead);
         connect(client, &QTcpSocket::disconnected, this, &MyTcpServer::slotClientDisconnected);
    // }
 }
 
+//! \brief Слот чтения
+//! \details Считывает пользовательский ввод и передаёт данные в функцию парсинга
+//!
 void MyTcpServer::slotServerRead(){
-
     QString res = "";
     QTcpSocket* client = (QTcpSocket*)sender();
 
@@ -48,6 +57,9 @@ void MyTcpServer::slotServerRead(){
     client->write(parsing(res.toUtf8()));
 }
 
+//! \brief Слот отключения
+//! \details Удаляет сокета из списка клиентов и закрывает его
+//!
 void MyTcpServer::slotClientDisconnected(){
 
     QTcpSocket* client = (QTcpSocket*)sender();

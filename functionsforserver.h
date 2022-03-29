@@ -1,6 +1,9 @@
 #ifndef FUNCTIONSFORSERVER_H
 #define FUNCTIONSFORSERVER_H
 #include <QString>
+#include "database.h"
+//! \brief Файл с функциями сервера
+//! \details Здесь объявлены функции авторизации, регистрации пользователей, а также функция парсинга для обработки ввода клиентов
 
 QByteArray parsing (QString data_from_client);
 

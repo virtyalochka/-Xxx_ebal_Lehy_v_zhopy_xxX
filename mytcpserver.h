@@ -8,6 +8,11 @@
 #include <QDebug>
 #include <list>
 #include "functionsforserver.h"
+//! \brief MyTcpServer - класс сервера, содержащий начальные настройки
+//! \details В этом классе объявлены слоты для обработки подключения, отключения клиентов и обработки ввода пользователей
+//! slotNewConnection() - слот для обработки нового подключения
+//! slotClientDisconnected() - слот для обработки отключения клиента
+//! slotServerRead() - слот для обработки ввода клиентов
 
 class MyTcpServer : public QObject
 {
