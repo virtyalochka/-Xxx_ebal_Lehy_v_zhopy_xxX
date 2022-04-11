@@ -51,65 +51,10 @@ class DataBase
             }
             return dataBasePointer;
         }
-        QByteArray reg(QString log, QString pass)
+
+        static QByteArray test()
         {
-            QSqlQuery query(dataBasePointer->db);
-
-            query.prepare("SELECT * FROM User WHERE login==:login");
-               query.bindValue(":login", log);
-               query.exec();
-
-               QSqlRecord rec = query.record();
-               const int logIndex = rec.indexOf("login");
-               const int passIndex = rec.indexOf("password");
-               query.next();
-
-               if(!query.isValid())
-               {
-                   query.prepare("INSERT INTO User(login, password) "
-                                     "VALUES (:login, :password)");
-                   query.bindValue(":password", pass);
-                   query.bindValue(":login", log);
-                   query.exec();
-                   return "You are successfully registered!";
-               }
-               else if(query.value(logIndex) == log && query.value(passIndex) != pass)
-               {
-                   return "Invalid password.";
-               }
-               else
-               {
-                   return "Such user is already exists.";
-               }
-        }
-
-        QByteArray auth(QString log, QString pass)
-        {
-            QSqlQuery query(dataBasePointer->db);
-
-            query.prepare("SELECT * FROM User WHERE login==:login");
-            query.bindValue(":login", log);
-            query.exec();
-
-            QSqlRecord rec = query.record();
-            const int passIndex = rec.indexOf("password");
-            query.next();
-
-            if(!rec.isEmpty() && query.isValid())
-            {
-                if(query.value(passIndex) != pass)
-                   {
-                       return "Invalid password.";
-                   }
-                   else
-                   {
-                       return "You are successfully authorized!";
-                   }
-            }
-            else
-            {
-                return "Such user doesn't exist.";
-            }
+            return "The response from the database was received :)";
         }
 
         void closeDB()

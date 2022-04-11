@@ -21,7 +21,7 @@ QByteArray reg(QString log, QString pass)
 //!
 QByteArray auth(QString log, QString pass)
 {
-    return "You have authorized";
+    return DataBase::test();
 }
 
 //! \brief Функция парсинга
