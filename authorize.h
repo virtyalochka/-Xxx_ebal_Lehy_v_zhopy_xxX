@@ -1,0 +1,33 @@
+#ifndef AUTHORIZE_H
+#define AUTHORIZE_H
+
+#include <QDialog>
+#include "functionsforclient.h"
+#include "registration.h"
+
+namespace Ui {
+    class Authorize;
+}
+
+class Authorize : public QDialog
+{
+    Q_OBJECT
+
+public:
+    explicit Authorize(QWidget *parent = nullptr);
+    ~Authorize();
+
+private slots:
+    void on_pushButton_Auth_clicked();
+
+    void on_pushButton_Reg_clicked();
+
+signals:
+    void authCorrect();
+
+private:
+    Ui::Authorize *ui;
+    Registration *reg;
+};
+
+#endif // AUTHORIZE_H
