@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <authorize.h>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -16,10 +17,11 @@ public:
     ~MainWindow();
 
 private slots:
-
+    void show_window();
     void on_pushButton_Exit_clicked();
 
 private:
     Ui::MainWindow *ui;
+    Authorize *auth;
 };
 #endif // MAINWINDOW_H

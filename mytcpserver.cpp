@@ -18,6 +18,8 @@ MyTcpServer::MyTcpServer(QObject *parent) : QObject(parent){
     mTcpServer = new QTcpServer(this);
     connect(mTcpServer, &QTcpServer::newConnection, this, &MyTcpServer::slotNewConnection);
 
+    DataBase::getInstance();
+
     if(!mTcpServer->listen(QHostAddress::Any, 33333)){
         qDebug() << "Server is not started :(";
     } else {

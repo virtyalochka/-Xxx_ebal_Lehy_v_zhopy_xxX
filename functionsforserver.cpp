@@ -1,9 +1,5 @@
 #include "functionsforserver.h"
-#include "database.h"
-#include <QStringList>
-#include <QString>
-#include <QMap>
-#include <QDebug>
+
 //! \brief Функция регистрации пользователя
 //! \param log - логин пользователя
 //! \param pass - пароль пользователя
@@ -21,7 +17,11 @@ QByteArray reg(QString log, QString pass)
 //!
 QByteArray auth(QString log, QString pass)
 {
-    return DataBase::test();
+    QSqlQuery res_query = DataBase::send_query("SELECT * FROM User");
+    QByteArray res = "";
+    if(res_query.size()>0)
+        res = "auth&+";
+    return res;
 }
 
 //! \brief Функция парсинга

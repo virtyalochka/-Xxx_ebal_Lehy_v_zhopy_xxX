@@ -31,37 +31,37 @@ class DataBase
         static DataBaseDestroyer destroyer;
         static QSqlDatabase db;
     protected:
-        DataBase();
-        DataBase(const DataBase& );
-        DataBase& operator = (DataBase &);
-        ~DataBase() {}
+        DataBase()
+        {
+            db = QSqlDatabase::addDatabase("QSQLITE");
+            db.setDatabaseName("D:/echoServer/PTechnologies/DBclients.db");
+
+            if(!db.open())
+                    qDebug()<<db.lastError().text();
+        }
+
+        DataBase(const DataBase& ) = delete;
+        DataBase& operator = (DataBase &) = delete;
+        ~DataBase() {db.close();}
         friend class DataBaseDestroyer;
     public:
-        static DataBase* getInstance(){
+        static DataBase* getInstance()
+        {
             if (!dataBasePointer)
             {
                 dataBasePointer = new DataBase();
-                dataBasePointer->db = QSqlDatabase::addDatabase("QSQLITE");
-                dataBasePointer->db.setDatabaseName("DBclients");
-
-                if(!dataBasePointer->db.open())
-                        qDebug()<<dataBasePointer->db.lastError().text();
-
                 destroyer.initialize(dataBasePointer);
             }
             return dataBasePointer;
         }
 
-        static QByteArray test()
+        static QSqlQuery send_query(QString query_text)
         {
-            return "The response from the database was received :)";
-        }
+            QSqlQuery query(db);
+            query.exec(query_text);
 
-        void closeDB()
-        {
-            dataBasePointer->db.close();
+            return query;
         }
 };
-
 
 #endif // DATABASE_H
