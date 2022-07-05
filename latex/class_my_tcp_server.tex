@@ -1,0 +1,91 @@
+\hypertarget{class_my_tcp_server}{}\doxysection{My\+Tcp\+Server Class Reference}
+\label{class_my_tcp_server}\index{MyTcpServer@{MyTcpServer}}
+
+
+\mbox{\hyperlink{class_my_tcp_server}{My\+Tcp\+Server}} -\/ класс сервера, содержащий начальные настройки  
+
+
+
+
+{\ttfamily \#include $<$mytcpserver.\+h$>$}
+
+Inheritance diagram for My\+Tcp\+Server\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_my_tcp_server}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_my_tcp_server_a0ba7316ffe1a26c57fabde9e74b6c8dc}{slot\+New\+Connection}} ()
+\begin{DoxyCompactList}\small\item\em Слот нового подключения \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_my_tcp_server_a3e040c49dbefd65b9a58ab662fc9f7a2}{slot\+Client\+Disconnected}} ()
+\begin{DoxyCompactList}\small\item\em Слот отключения \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_my_tcp_server_ab4a64d2eab985d723090963f5c8a2882}{slot\+Server\+Read}} ()
+\begin{DoxyCompactList}\small\item\em Слот чтения \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_my_tcp_server_acf367c4695b4d160c7a2d25c2afaaec4}{My\+Tcp\+Server}} (QObject $\ast$parent=nullptr)
+\begin{DoxyCompactList}\small\item\em Конструктор объекта сервера \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_my_tcp_server_ab39e651ff7c37c152215c02c225e79ef}\label{class_my_tcp_server_ab39e651ff7c37c152215c02c225e79ef}} 
+{\bfseries $\sim$\+My\+Tcp\+Server} ()
+\begin{DoxyCompactList}\small\item\em Деструктор объекта сервера \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{class_my_tcp_server}{My\+Tcp\+Server}} -\/ класс сервера, содержащий начальные настройки 
+
+В этом классе объявлены слоты для обработки подключения, отключения клиентов и обработки ввода пользователей \mbox{\hyperlink{class_my_tcp_server_a0ba7316ffe1a26c57fabde9e74b6c8dc}{slot\+New\+Connection()}} -\/ слот для обработки нового подключения \mbox{\hyperlink{class_my_tcp_server_a3e040c49dbefd65b9a58ab662fc9f7a2}{slot\+Client\+Disconnected()}} -\/ слот для обработки отключения клиента \mbox{\hyperlink{class_my_tcp_server_ab4a64d2eab985d723090963f5c8a2882}{slot\+Server\+Read()}} -\/ слот для обработки ввода клиентов 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_my_tcp_server_acf367c4695b4d160c7a2d25c2afaaec4}\label{class_my_tcp_server_acf367c4695b4d160c7a2d25c2afaaec4}} 
+\index{MyTcpServer@{MyTcpServer}!MyTcpServer@{MyTcpServer}}
+\index{MyTcpServer@{MyTcpServer}!MyTcpServer@{MyTcpServer}}
+\doxysubsubsection{\texorpdfstring{MyTcpServer()}{MyTcpServer()}}
+{\footnotesize\ttfamily My\+Tcp\+Server\+::\+My\+Tcp\+Server (\begin{DoxyParamCaption}\item[{QObject $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Конструктор объекта сервера 
+
+Производит инициализацию объекта сервера с уведомлением о статусе сервера 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_my_tcp_server_a3e040c49dbefd65b9a58ab662fc9f7a2}\label{class_my_tcp_server_a3e040c49dbefd65b9a58ab662fc9f7a2}} 
+\index{MyTcpServer@{MyTcpServer}!slotClientDisconnected@{slotClientDisconnected}}
+\index{slotClientDisconnected@{slotClientDisconnected}!MyTcpServer@{MyTcpServer}}
+\doxysubsubsection{\texorpdfstring{slotClientDisconnected}{slotClientDisconnected}}
+{\footnotesize\ttfamily void My\+Tcp\+Server\+::slot\+Client\+Disconnected (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Слот отключения 
+
+Удаляет сокета из списка клиентов и закрывает его \mbox{\Hypertarget{class_my_tcp_server_a0ba7316ffe1a26c57fabde9e74b6c8dc}\label{class_my_tcp_server_a0ba7316ffe1a26c57fabde9e74b6c8dc}} 
+\index{MyTcpServer@{MyTcpServer}!slotNewConnection@{slotNewConnection}}
+\index{slotNewConnection@{slotNewConnection}!MyTcpServer@{MyTcpServer}}
+\doxysubsubsection{\texorpdfstring{slotNewConnection}{slotNewConnection}}
+{\footnotesize\ttfamily void My\+Tcp\+Server\+::slot\+New\+Connection (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Слот нового подключения 
+
+Создаёт новый объект сокета, инициализирует его и производит запись в список клиентов \mbox{\Hypertarget{class_my_tcp_server_ab4a64d2eab985d723090963f5c8a2882}\label{class_my_tcp_server_ab4a64d2eab985d723090963f5c8a2882}} 
+\index{MyTcpServer@{MyTcpServer}!slotServerRead@{slotServerRead}}
+\index{slotServerRead@{slotServerRead}!MyTcpServer@{MyTcpServer}}
+\doxysubsubsection{\texorpdfstring{slotServerRead}{slotServerRead}}
+{\footnotesize\ttfamily void My\+Tcp\+Server\+::slot\+Server\+Read (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Слот чтения 
+
+Считывает пользовательский ввод и передаёт данные в функцию парсинга 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/echo\+Server/\+PTechnologies/mytcpserver.\+h\item 
+D\+:/echo\+Server/\+PTechnologies/mytcpserver.\+cpp\end{DoxyCompactItemize}

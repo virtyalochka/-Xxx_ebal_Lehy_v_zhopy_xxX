@@ -1,0 +1,73 @@
+\hypertarget{database_8h_source}{}\doxysection{database.\+h}
+\label{database_8h_source}\index{D:/echoServer/PTechnologies/database.h@{D:/echoServer/PTechnologies/database.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef DATABASE\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define DATABASE\_H}}
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include <QDebug>}}
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <QSqlDatabase>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <QSqlQuery>}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include <QSqlError>}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#include <QSqlRecord>}}
+\DoxyCodeLine{8 }
+\DoxyCodeLine{9 \textcolor{keyword}{class }\mbox{\hyperlink{class_data_base}{DataBase}};}
+\DoxyCodeLine{10 }
+\DoxyCodeLine{11 \textcolor{keyword}{class }\mbox{\hyperlink{class_data_base_destroyer}{DataBaseDestroyer}}}
+\DoxyCodeLine{12 \{}
+\DoxyCodeLine{13     \textcolor{keyword}{private}:}
+\DoxyCodeLine{14         \mbox{\hyperlink{class_data_base}{DataBase}} * dataBasePointer;}
+\DoxyCodeLine{15     \textcolor{keyword}{public}:}
+\DoxyCodeLine{16         \mbox{\hyperlink{class_data_base_destroyer}{\string~DataBaseDestroyer}}()}
+\DoxyCodeLine{17         \{}
+\DoxyCodeLine{18             \textcolor{keyword}{delete} dataBasePointer;}
+\DoxyCodeLine{19         \};}
+\DoxyCodeLine{20         \textcolor{keywordtype}{void} initialize(\mbox{\hyperlink{class_data_base}{DataBase}} * p)}
+\DoxyCodeLine{21         \{}
+\DoxyCodeLine{22             dataBasePointer = p;}
+\DoxyCodeLine{23         \};}
+\DoxyCodeLine{24 \};}
+\DoxyCodeLine{25 }
+\DoxyCodeLine{26 }
+\DoxyCodeLine{27 \textcolor{keyword}{class }\mbox{\hyperlink{class_data_base}{DataBase}}}
+\DoxyCodeLine{28 \{}
+\DoxyCodeLine{29     \textcolor{keyword}{private}:}
+\DoxyCodeLine{30         \textcolor{keyword}{static} \mbox{\hyperlink{class_data_base}{DataBase}} * dataBasePointer;}
+\DoxyCodeLine{31         \textcolor{keyword}{static} \mbox{\hyperlink{class_data_base_destroyer}{DataBaseDestroyer}} destroyer;}
+\DoxyCodeLine{32         \textcolor{keyword}{static} QSqlDatabase db;}
+\DoxyCodeLine{33     \textcolor{keyword}{protected}:}
+\DoxyCodeLine{34         \mbox{\hyperlink{class_data_base}{DataBase}}()}
+\DoxyCodeLine{35         \{}
+\DoxyCodeLine{36             db = QSqlDatabase::addDatabase(\textcolor{stringliteral}{"{}QSQLITE"{}});}
+\DoxyCodeLine{37             db.setDatabaseName(\textcolor{stringliteral}{"{}D:/echoServer/PTechnologies/DBclients.db"{}});}
+\DoxyCodeLine{38 }
+\DoxyCodeLine{39             \textcolor{keywordflow}{if}(!db.open())}
+\DoxyCodeLine{40                     qDebug()<<db.lastError().text();}
+\DoxyCodeLine{41         \}}
+\DoxyCodeLine{42 }
+\DoxyCodeLine{43         \mbox{\hyperlink{class_data_base}{DataBase}}(\textcolor{keyword}{const} \mbox{\hyperlink{class_data_base}{DataBase}}\& ) = \textcolor{keyword}{delete};}
+\DoxyCodeLine{44         \mbox{\hyperlink{class_data_base}{DataBase}}\& operator = (\mbox{\hyperlink{class_data_base}{DataBase}} \&) = \textcolor{keyword}{delete};}
+\DoxyCodeLine{45         \mbox{\hyperlink{class_data_base}{\string~DataBase}}() \{db.close();\}}
+\DoxyCodeLine{46         \textcolor{keyword}{friend} \textcolor{keyword}{class }\mbox{\hyperlink{class_data_base_destroyer}{DataBaseDestroyer}};}
+\DoxyCodeLine{47     \textcolor{keyword}{public}:}
+\DoxyCodeLine{48         \textcolor{keyword}{static} \mbox{\hyperlink{class_data_base}{DataBase}}* getInstance()}
+\DoxyCodeLine{49         \{}
+\DoxyCodeLine{50             \textcolor{keywordflow}{if} (!dataBasePointer)}
+\DoxyCodeLine{51             \{}
+\DoxyCodeLine{52                 dataBasePointer = \textcolor{keyword}{new} \mbox{\hyperlink{class_data_base}{DataBase}}();}
+\DoxyCodeLine{53                 destroyer.initialize(dataBasePointer);}
+\DoxyCodeLine{54             \}}
+\DoxyCodeLine{55             \textcolor{keywordflow}{return} dataBasePointer;}
+\DoxyCodeLine{56         \}}
+\DoxyCodeLine{57 }
+\DoxyCodeLine{58         \textcolor{keyword}{static} QSqlQuery send\_query(QString query\_text)}
+\DoxyCodeLine{59         \{}
+\DoxyCodeLine{60             QSqlQuery query(db);}
+\DoxyCodeLine{61             query.exec(query\_text);}
+\DoxyCodeLine{62 }
+\DoxyCodeLine{63             \textcolor{keywordflow}{return} query;}
+\DoxyCodeLine{64         \}}
+\DoxyCodeLine{65 \};}
+\DoxyCodeLine{66 }
+\DoxyCodeLine{67 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// DATABASE\_H}}
+
+\end{DoxyCode}
