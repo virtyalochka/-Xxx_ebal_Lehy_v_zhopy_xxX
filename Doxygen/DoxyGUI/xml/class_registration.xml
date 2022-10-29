@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_registration" kind="class" language="C++" prot="public">
+    <compoundname>Registration</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QDialog</basecompoundref>
+    <includes refid="registration_8h" local="no">registration.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_registration_1aa655784756cb5d2d33fb11e713273d72" prot="private" static="no" mutable="no">
+        <type>Ui::Registration *</type>
+        <definition>Ui::Registration* Registration::ui</definition>
+        <argsstring></argsstring>
+        <name>ui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/inter/registration.h" line="29" column="1" bodyfile="C:/QTT/Sborka/inter/registration.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_registration_1a2caa0ec4819473d5a6a84190414f24b9" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Registration::Registration</definition>
+        <argsstring>(QWidget *parent=nullptr)</argsstring>
+        <name>Registration</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/inter/registration.h" line="17" column="1" bodyfile="C:/QTT/Sborka/inter/registration.cpp" bodystart="4" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_registration_1af0515fb621bcf46276090b7b26f88fc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Registration::~Registration</definition>
+        <argsstring>()</argsstring>
+        <name>~Registration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/inter/registration.h" line="18" column="1" bodyfile="C:/QTT/Sborka/inter/registration.cpp" bodystart="11" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="class_registration_1a509fdfd1458f4cdf30209998ba1ccf33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Registration::authCorrect</definition>
+        <argsstring>()</argsstring>
+        <name>authCorrect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/inter/registration.h" line="22" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="8">
+        <label>Registration</label>
+        <link refid="class_registration"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>QDialog</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="10">
+        <label>Registration</label>
+        <link refid="class_registration"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>QDialog</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/QTT/Sborka/inter/registration.h" line="12" column="1" bodyfile="C:/QTT/Sborka/inter/registration.h" bodystart="11" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_registration_1a509fdfd1458f4cdf30209998ba1ccf33" prot="public" virt="non-virtual"><scope>Registration</scope><name>authCorrect</name></member>
+      <member refid="class_registration_1a2caa0ec4819473d5a6a84190414f24b9" prot="public" virt="non-virtual"><scope>Registration</scope><name>Registration</name></member>
+      <member refid="class_registration_1aa655784756cb5d2d33fb11e713273d72" prot="private" virt="non-virtual"><scope>Registration</scope><name>ui</name></member>
+      <member refid="class_registration_1af0515fb621bcf46276090b7b26f88fc4" prot="public" virt="non-virtual"><scope>Registration</scope><name>~Registration</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_main_window" kind="class" language="C++" prot="public">
+    <compoundname>MainWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QMainWindow</basecompoundref>
+    <includes refid="mainwindow_8h" local="no">mainwindow.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_main_window_1a35466a70ed47252a0191168126a352a5" prot="private" static="no" mutable="no">
+        <type>Ui::MainWindow *</type>
+        <definition>Ui::MainWindow* MainWindow::ui</definition>
+        <argsstring></argsstring>
+        <name>ui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/inter/mainwindow.h" line="37" column="1" bodyfile="C:/QTT/Sborka/inter/mainwindow.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1acc38f11671f5b4787d6f873786cc6de9" prot="private" static="no" mutable="no">
+        <type><ref refid="class_authorize" kindref="compound">Authorize</ref> *</type>
+        <definition>Authorize* MainWindow::auth</definition>
+        <argsstring></argsstring>
+        <name>auth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/inter/mainwindow.h" line="38" column="1" bodyfile="C:/QTT/Sborka/inter/mainwindow.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1a422e61f422782b968561dc39e5b0352a" prot="private" static="no" mutable="no">
+        <type><ref refid="classtask1" kindref="compound">task1</ref> *</type>
+        <definition>task1* MainWindow::task11</definition>
+        <argsstring></argsstring>
+        <name>task11</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/inter/mainwindow.h" line="39" column="1" bodyfile="C:/QTT/Sborka/inter/mainwindow.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1a3c720efa9a7db6ca1c133c1bb2d014de" prot="private" static="no" mutable="no">
+        <type><ref refid="classtask2" kindref="compound">task2</ref> *</type>
+        <definition>task2* MainWindow::task22</definition>
+        <argsstring></argsstring>
+        <name>task22</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/inter/mainwindow.h" line="40" column="1" bodyfile="C:/QTT/Sborka/inter/mainwindow.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1aa184f264cc35f44cdf28afde87de43fe" prot="private" static="no" mutable="no">
+        <type><ref refid="classtask3" kindref="compound">task3</ref> *</type>
+        <definition>task3* MainWindow::task33</definition>
+        <argsstring></argsstring>
+        <name>task33</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/inter/mainwindow.h" line="41" column="1" bodyfile="C:/QTT/Sborka/inter/mainwindow.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1abcb923aa139e3e0a5d5f156bc084a39a" prot="private" static="no" mutable="no">
+        <type><ref refid="classtask4" kindref="compound">task4</ref> *</type>
+        <definition>task4* MainWindow::task44</definition>
+        <argsstring></argsstring>
+        <name>task44</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/inter/mainwindow.h" line="42" column="1" bodyfile="C:/QTT/Sborka/inter/mainwindow.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_main_window_1a996c5a2b6f77944776856f08ec30858d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MainWindow::MainWindow</definition>
+        <argsstring>(QWidget *parent=nullptr)</argsstring>
+        <name>MainWindow</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/inter/mainwindow.h" line="21" column="1" bodyfile="C:/QTT/Sborka/inter/mainwindow.cpp" bodystart="7" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_window_1ae98d00a93bc118200eeef9f9bba1dba7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MainWindow::~MainWindow</definition>
+        <argsstring>()</argsstring>
+        <name>~MainWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/inter/mainwindow.h" line="22" column="1" bodyfile="C:/QTT/Sborka/inter/mainwindow.cpp" bodystart="26" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="class_main_window_1a9880b1d4194751962dfa9371cd555ccd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::show_window</definition>
+        <argsstring>()</argsstring>
+        <name>show_window</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/inter/mainwindow.h" line="25" column="1" bodyfile="C:/QTT/Sborka/inter/mainwindow.cpp" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1a45202e0f22e057c00584cf79c4dbbb70" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_pushButton_Exit_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_pushButton_Exit_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/inter/mainwindow.h" line="26" column="1" bodyfile="C:/QTT/Sborka/inter/mainwindow.cpp" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1a48c9bcd24d928d5d48c55e7a55850ebe" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_pushButton_Task1_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_pushButton_Task1_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/inter/mainwindow.h" line="28" column="1" bodyfile="C:/QTT/Sborka/inter/mainwindow.cpp" bodystart="42" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1ae8d6d541c6b9f61cb9b7785c06816eec" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_pushButton_Task2_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_pushButton_Task2_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/inter/mainwindow.h" line="30" column="1" bodyfile="C:/QTT/Sborka/inter/mainwindow.cpp" bodystart="49" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1a1d2f1232d3dd3c174eb347803c285604" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_pushButton_Task4_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_pushButton_Task4_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/inter/mainwindow.h" line="32" column="1" bodyfile="C:/QTT/Sborka/inter/mainwindow.cpp" bodystart="56" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1aeeb65738e2bd7f0fb7756b4210a5d7ed" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_pushButton_Task3_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_pushButton_Task3_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/inter/mainwindow.h" line="34" column="1" bodyfile="C:/QTT/Sborka/inter/mainwindow.cpp" bodystart="63" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>QMainWindow</label>
+      </node>
+      <node id="4">
+        <label>MainWindow</label>
+        <link refid="class_main_window"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7">
+        <label>QMainWindow</label>
+      </node>
+      <node id="6">
+        <label>MainWindow</label>
+        <link refid="class_main_window"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/QTT/Sborka/inter/mainwindow.h" line="17" column="1" bodyfile="C:/QTT/Sborka/inter/mainwindow.h" bodystart="16" bodyend="44"/>
+    <listofallmembers>
+      <member refid="class_main_window_1acc38f11671f5b4787d6f873786cc6de9" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>auth</name></member>
+      <member refid="class_main_window_1a996c5a2b6f77944776856f08ec30858d" prot="public" virt="non-virtual"><scope>MainWindow</scope><name>MainWindow</name></member>
+      <member refid="class_main_window_1a45202e0f22e057c00584cf79c4dbbb70" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_pushButton_Exit_clicked</name></member>
+      <member refid="class_main_window_1a48c9bcd24d928d5d48c55e7a55850ebe" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_pushButton_Task1_clicked</name></member>
+      <member refid="class_main_window_1ae8d6d541c6b9f61cb9b7785c06816eec" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_pushButton_Task2_clicked</name></member>
+      <member refid="class_main_window_1aeeb65738e2bd7f0fb7756b4210a5d7ed" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_pushButton_Task3_clicked</name></member>
+      <member refid="class_main_window_1a1d2f1232d3dd3c174eb347803c285604" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_pushButton_Task4_clicked</name></member>
+      <member refid="class_main_window_1a9880b1d4194751962dfa9371cd555ccd" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>show_window</name></member>
+      <member refid="class_main_window_1a422e61f422782b968561dc39e5b0352a" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>task11</name></member>
+      <member refid="class_main_window_1a3c720efa9a7db6ca1c133c1bb2d014de" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>task22</name></member>
+      <member refid="class_main_window_1aa184f264cc35f44cdf28afde87de43fe" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>task33</name></member>
+      <member refid="class_main_window_1abcb923aa139e3e0a5d5f156bc084a39a" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>task44</name></member>
+      <member refid="class_main_window_1a35466a70ed47252a0191168126a352a5" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>ui</name></member>
+      <member refid="class_main_window_1ae98d00a93bc118200eeef9f9bba1dba7" prot="public" virt="non-virtual"><scope>MainWindow</scope><name>~MainWindow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classtask4" kind="class" language="C++" prot="public">
+    <compoundname>task4</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QWidget</basecompoundref>
+    <includes refid="task4_8h" local="no">task4.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtask4_1a5bd50e388c6cd1e364f6a2613139480b" prot="private" static="no" mutable="no">
+        <type>Ui::task4 *</type>
+        <definition>Ui::task4* task4::ui</definition>
+        <argsstring></argsstring>
+        <name>ui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/inter/task4.h" line="26" column="1" bodyfile="C:/QTT/Sborka/inter/task4.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtask4_1a7c79fd61c256ac8fb509e2b7a1d700a5" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>task4::task4</definition>
+        <argsstring>(QWidget *parent=nullptr)</argsstring>
+        <name>task4</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/inter/task4.h" line="15" column="1" bodyfile="C:/QTT/Sborka/inter/task4.cpp" bodystart="4" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classtask4_1a452c5308f6ca5087584c8078af5504d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>task4::~task4</definition>
+        <argsstring>()</argsstring>
+        <name>~task4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/inter/task4.h" line="16" column="1" bodyfile="C:/QTT/Sborka/inter/task4.cpp" bodystart="11" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="classtask4_1a8806f02eef52c03512e8c49cc64b1833" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void task4::authCorrect</definition>
+        <argsstring>()</argsstring>
+        <name>authCorrect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/inter/task4.h" line="18" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="classtask4_1a364113d5ee6b1f1ec38527dfbfcf8673" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void task4::on_pushButton_2_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_pushButton_2_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/inter/task4.h" line="21" column="1" bodyfile="C:/QTT/Sborka/inter/task4.cpp" bodystart="16" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="slot" id="classtask4_1af8136e6dd9fb7e9cfa4c83dc5fb439f3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void task4::on_pushButton_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_pushButton_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/inter/task4.h" line="23" column="1" bodyfile="C:/QTT/Sborka/inter/task4.cpp" bodystart="23" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="24">
+        <label>task4</label>
+        <link refid="classtask4"/>
+        <childnode refid="25" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>QWidget</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="26">
+        <label>task4</label>
+        <link refid="classtask4"/>
+        <childnode refid="27" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>QWidget</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/QTT/Sborka/inter/task4.h" line="11" column="1" bodyfile="C:/QTT/Sborka/inter/task4.h" bodystart="10" bodyend="27"/>
+    <listofallmembers>
+      <member refid="classtask4_1a8806f02eef52c03512e8c49cc64b1833" prot="public" virt="non-virtual"><scope>task4</scope><name>authCorrect</name></member>
+      <member refid="classtask4_1a364113d5ee6b1f1ec38527dfbfcf8673" prot="private" virt="non-virtual"><scope>task4</scope><name>on_pushButton_2_clicked</name></member>
+      <member refid="classtask4_1af8136e6dd9fb7e9cfa4c83dc5fb439f3" prot="private" virt="non-virtual"><scope>task4</scope><name>on_pushButton_clicked</name></member>
+      <member refid="classtask4_1a7c79fd61c256ac8fb509e2b7a1d700a5" prot="public" virt="non-virtual"><scope>task4</scope><name>task4</name></member>
+      <member refid="classtask4_1a5bd50e388c6cd1e364f6a2613139480b" prot="private" virt="non-virtual"><scope>task4</scope><name>ui</name></member>
+      <member refid="classtask4_1a452c5308f6ca5087584c8078af5504d8" prot="public" virt="non-virtual"><scope>task4</scope><name>~task4</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

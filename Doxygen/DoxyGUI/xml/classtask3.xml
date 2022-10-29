@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classtask3" kind="class" language="C++" prot="public">
+    <compoundname>task3</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QWidget</basecompoundref>
+    <includes refid="task3_8h" local="no">task3.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtask3_1a6ab44205fe5760e4ee2923226adba150" prot="private" static="no" mutable="no">
+        <type>Ui::task3 *</type>
+        <definition>Ui::task3* task3::ui</definition>
+        <argsstring></argsstring>
+        <name>ui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/inter/task3.h" line="26" column="1" bodyfile="C:/QTT/Sborka/inter/task3.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtask3_1a0a6027f3581e90122179cef68a7d5331" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>task3::task3</definition>
+        <argsstring>(QWidget *parent=nullptr)</argsstring>
+        <name>task3</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/inter/task3.h" line="15" column="1" bodyfile="C:/QTT/Sborka/inter/task3.cpp" bodystart="4" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classtask3_1ad2e55a3c68b7378fd4d917c7a700de58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>task3::~task3</definition>
+        <argsstring>()</argsstring>
+        <name>~task3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/inter/task3.h" line="16" column="1" bodyfile="C:/QTT/Sborka/inter/task3.cpp" bodystart="11" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="classtask3_1aa3b4c71fbe1fe7cd10bbf4d423073307" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void task3::authCorrect</definition>
+        <argsstring>()</argsstring>
+        <name>authCorrect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/inter/task3.h" line="18" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="classtask3_1ab87d56d288574f03b46617d6cc6080b5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void task3::on_pushButton_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_pushButton_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/inter/task3.h" line="21" column="1" bodyfile="C:/QTT/Sborka/inter/task3.cpp" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="slot" id="classtask3_1ae0873c8a3cf29f14cec3434b8cf4fea3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void task3::on_pushButton_2_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_pushButton_2_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/inter/task3.h" line="23" column="1" bodyfile="C:/QTT/Sborka/inter/task3.cpp" bodystart="22" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="20">
+        <label>task3</label>
+        <link refid="classtask3"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>QWidget</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="22">
+        <label>task3</label>
+        <link refid="classtask3"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>QWidget</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/QTT/Sborka/inter/task3.h" line="11" column="1" bodyfile="C:/QTT/Sborka/inter/task3.h" bodystart="10" bodyend="27"/>
+    <listofallmembers>
+      <member refid="classtask3_1aa3b4c71fbe1fe7cd10bbf4d423073307" prot="public" virt="non-virtual"><scope>task3</scope><name>authCorrect</name></member>
+      <member refid="classtask3_1ae0873c8a3cf29f14cec3434b8cf4fea3" prot="private" virt="non-virtual"><scope>task3</scope><name>on_pushButton_2_clicked</name></member>
+      <member refid="classtask3_1ab87d56d288574f03b46617d6cc6080b5" prot="private" virt="non-virtual"><scope>task3</scope><name>on_pushButton_clicked</name></member>
+      <member refid="classtask3_1a0a6027f3581e90122179cef68a7d5331" prot="public" virt="non-virtual"><scope>task3</scope><name>task3</name></member>
+      <member refid="classtask3_1a6ab44205fe5760e4ee2923226adba150" prot="private" virt="non-virtual"><scope>task3</scope><name>ui</name></member>
+      <member refid="classtask3_1ad2e55a3c68b7378fd4d917c7a700de58" prot="public" virt="non-virtual"><scope>task3</scope><name>~task3</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

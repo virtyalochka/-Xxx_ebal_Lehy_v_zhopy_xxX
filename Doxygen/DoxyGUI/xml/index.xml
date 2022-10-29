@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.14">
+  <compound refid="class_authorize" kind="class"><name>Authorize</name>
+    <member refid="class_authorize_1adbd7a4df7a92c2b46dd72b2cc9e6a79a" kind="variable"><name>ui</name></member>
+    <member refid="class_authorize_1a9e8ffce8f2655aadc327de64fbe26442" kind="variable"><name>reg</name></member>
+    <member refid="class_authorize_1a5de580efdb6e7bd80fc436c97e495b13" kind="function"><name>Authorize</name></member>
+    <member refid="class_authorize_1a825194daace59ada42f80210f4a77eda" kind="function"><name>~Authorize</name></member>
+    <member refid="class_authorize_1acd434ef918e9af125e8f73038f3d8634" kind="slot"><name>on_pushButton_Auth_clicked</name></member>
+    <member refid="class_authorize_1a442cd6bfcf6cc3f661348eb2aaaffa41" kind="slot"><name>on_pushButton_Reg_clicked</name></member>
+    <member refid="class_authorize_1a27ba7d2178c33c1fcf722cb7c054d210" kind="signal"><name>authCorrect</name></member>
+  </compound>
+  <compound refid="class_main_window" kind="class"><name>MainWindow</name>
+    <member refid="class_main_window_1a35466a70ed47252a0191168126a352a5" kind="variable"><name>ui</name></member>
+    <member refid="class_main_window_1acc38f11671f5b4787d6f873786cc6de9" kind="variable"><name>auth</name></member>
+    <member refid="class_main_window_1a422e61f422782b968561dc39e5b0352a" kind="variable"><name>task11</name></member>
+    <member refid="class_main_window_1a3c720efa9a7db6ca1c133c1bb2d014de" kind="variable"><name>task22</name></member>
+    <member refid="class_main_window_1aa184f264cc35f44cdf28afde87de43fe" kind="variable"><name>task33</name></member>
+    <member refid="class_main_window_1abcb923aa139e3e0a5d5f156bc084a39a" kind="variable"><name>task44</name></member>
+    <member refid="class_main_window_1a996c5a2b6f77944776856f08ec30858d" kind="function"><name>MainWindow</name></member>
+    <member refid="class_main_window_1ae98d00a93bc118200eeef9f9bba1dba7" kind="function"><name>~MainWindow</name></member>
+    <member refid="class_main_window_1a9880b1d4194751962dfa9371cd555ccd" kind="slot"><name>show_window</name></member>
+    <member refid="class_main_window_1a45202e0f22e057c00584cf79c4dbbb70" kind="slot"><name>on_pushButton_Exit_clicked</name></member>
+    <member refid="class_main_window_1a48c9bcd24d928d5d48c55e7a55850ebe" kind="slot"><name>on_pushButton_Task1_clicked</name></member>
+    <member refid="class_main_window_1ae8d6d541c6b9f61cb9b7785c06816eec" kind="slot"><name>on_pushButton_Task2_clicked</name></member>
+    <member refid="class_main_window_1a1d2f1232d3dd3c174eb347803c285604" kind="slot"><name>on_pushButton_Task4_clicked</name></member>
+    <member refid="class_main_window_1aeeb65738e2bd7f0fb7756b4210a5d7ed" kind="slot"><name>on_pushButton_Task3_clicked</name></member>
+  </compound>
+  <compound refid="class_registration" kind="class"><name>Registration</name>
+    <member refid="class_registration_1aa655784756cb5d2d33fb11e713273d72" kind="variable"><name>ui</name></member>
+    <member refid="class_registration_1a2caa0ec4819473d5a6a84190414f24b9" kind="function"><name>Registration</name></member>
+    <member refid="class_registration_1af0515fb621bcf46276090b7b26f88fc4" kind="function"><name>~Registration</name></member>
+    <member refid="class_registration_1a509fdfd1458f4cdf30209998ba1ccf33" kind="signal"><name>authCorrect</name></member>
+  </compound>
+  <compound refid="classtask1" kind="class"><name>task1</name>
+    <member refid="classtask1_1a10169950cbab57d2f63bfe44e067f733" kind="variable"><name>ui</name></member>
+    <member refid="classtask1_1a1a17e74a96e8fe9a544a7430a63215bf" kind="function"><name>task1</name></member>
+    <member refid="classtask1_1ae84aeb78d8edad28e03561851c464f37" kind="function"><name>~task1</name></member>
+    <member refid="classtask1_1a2138ec706b5040bb76062a927a329729" kind="slot"><name>on_pushButton_clicked</name></member>
+    <member refid="classtask1_1af8d72eaac51e792f1beb89a9da7d9d19" kind="slot"><name>on_pushButton_2_clicked</name></member>
+    <member refid="classtask1_1ae73fc9c71d989f54e6e80decd4eb5cd1" kind="signal"><name>authCorrect</name></member>
+  </compound>
+  <compound refid="classtask2" kind="class"><name>task2</name>
+    <member refid="classtask2_1af6b18c9e8e503fd96cd92b15f24e7425" kind="variable"><name>ui</name></member>
+    <member refid="classtask2_1a5c180fcef91e07c93fa45c95e26567ef" kind="function"><name>task2</name></member>
+    <member refid="classtask2_1a556f5667a380cc0341cd8e585411849a" kind="function"><name>~task2</name></member>
+    <member refid="classtask2_1ae1300135e91036758449e9d3ad21461d" kind="signal"><name>authCorrect</name></member>
+    <member refid="classtask2_1a17d3bdef43b57d94c8ba2a20dfa4e167" kind="slot"><name>on_pushButton_clicked</name></member>
+    <member refid="classtask2_1a0e8a3759bbce5e3de8d361f36399f189" kind="slot"><name>on_pushButton_2_clicked</name></member>
+  </compound>
+  <compound refid="classtask3" kind="class"><name>task3</name>
+    <member refid="classtask3_1a6ab44205fe5760e4ee2923226adba150" kind="variable"><name>ui</name></member>
+    <member refid="classtask3_1a0a6027f3581e90122179cef68a7d5331" kind="function"><name>task3</name></member>
+    <member refid="classtask3_1ad2e55a3c68b7378fd4d917c7a700de58" kind="function"><name>~task3</name></member>
+    <member refid="classtask3_1aa3b4c71fbe1fe7cd10bbf4d423073307" kind="signal"><name>authCorrect</name></member>
+    <member refid="classtask3_1ab87d56d288574f03b46617d6cc6080b5" kind="slot"><name>on_pushButton_clicked</name></member>
+    <member refid="classtask3_1ae0873c8a3cf29f14cec3434b8cf4fea3" kind="slot"><name>on_pushButton_2_clicked</name></member>
+  </compound>
+  <compound refid="classtask4" kind="class"><name>task4</name>
+    <member refid="classtask4_1a5bd50e388c6cd1e364f6a2613139480b" kind="variable"><name>ui</name></member>
+    <member refid="classtask4_1a7c79fd61c256ac8fb509e2b7a1d700a5" kind="function"><name>task4</name></member>
+    <member refid="classtask4_1a452c5308f6ca5087584c8078af5504d8" kind="function"><name>~task4</name></member>
+    <member refid="classtask4_1a8806f02eef52c03512e8c49cc64b1833" kind="signal"><name>authCorrect</name></member>
+    <member refid="classtask4_1a364113d5ee6b1f1ec38527dfbfcf8673" kind="slot"><name>on_pushButton_2_clicked</name></member>
+    <member refid="classtask4_1af8136e6dd9fb7e9cfa4c83dc5fb439f3" kind="slot"><name>on_pushButton_clicked</name></member>
+  </compound>
+  <compound refid="namespace_ui" kind="namespace"><name>Ui</name>
+  </compound>
+  <compound refid="authorize_8cpp" kind="file"><name>authorize.cpp</name>
+  </compound>
+  <compound refid="authorize_8h" kind="file"><name>authorize.h</name>
+  </compound>
+  <compound refid="functionsforclient_8cpp" kind="file"><name>functionsforclient.cpp</name>
+    <member refid="functionsforclient_8cpp_1aaf91f42a3ae473382823ff3691e80ed9" kind="function"><name>authorize</name></member>
+  </compound>
+  <compound refid="functionsforclient_8h" kind="file"><name>functionsforclient.h</name>
+    <member refid="functionsforclient_8h_1aaf91f42a3ae473382823ff3691e80ed9" kind="function"><name>authorize</name></member>
+  </compound>
+  <compound refid="main_8cpp" kind="file"><name>main.cpp</name>
+    <member refid="main_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="mainwindow_8cpp" kind="file"><name>mainwindow.cpp</name>
+  </compound>
+  <compound refid="mainwindow_8h" kind="file"><name>mainwindow.h</name>
+  </compound>
+  <compound refid="_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="registration_8cpp" kind="file"><name>registration.cpp</name>
+  </compound>
+  <compound refid="registration_8h" kind="file"><name>registration.h</name>
+  </compound>
+  <compound refid="task1_8cpp" kind="file"><name>task1.cpp</name>
+  </compound>
+  <compound refid="task1_8h" kind="file"><name>task1.h</name>
+  </compound>
+  <compound refid="task2_8cpp" kind="file"><name>task2.cpp</name>
+  </compound>
+  <compound refid="task2_8h" kind="file"><name>task2.h</name>
+  </compound>
+  <compound refid="task3_8cpp" kind="file"><name>task3.cpp</name>
+  </compound>
+  <compound refid="task3_8h" kind="file"><name>task3.h</name>
+  </compound>
+  <compound refid="task4_8cpp" kind="file"><name>task4.cpp</name>
+  </compound>
+  <compound refid="task4_8h" kind="file"><name>task4.h</name>
+  </compound>
+  <compound refid="md__c_1__q_t_t__sborka_inter__r_e_a_d_m_e" kind="page"><name>md_C:_QTT_Sborka_inter_README</name>
+  </compound>
+  <compound refid="dir_7944ca35d0f8f2f1fbf59ecb848d4eb1" kind="dir"><name>C:/QTT/Sborka/inter</name>
+  </compound>
+  <compound refid="dir_7ade2b00d1ea63b77325b74a453e11b5" kind="dir"><name>C:/QTT</name>
+  </compound>
+  <compound refid="dir_faf366d4751edcb2045465fea86f2b7c" kind="dir"><name>C:/QTT/Sborka</name>
+  </compound>
+</doxygenindex>

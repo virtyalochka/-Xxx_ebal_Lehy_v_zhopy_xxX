@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_7944ca35d0f8f2f1fbf59ecb848d4eb1" kind="dir">
+    <compoundname>C:/QTT/Sborka/inter</compoundname>
+    <innerfile refid="authorize_8cpp">authorize.cpp</innerfile>
+    <innerfile refid="authorize_8h">authorize.h</innerfile>
+    <innerfile refid="functionsforclient_8cpp">functionsforclient.cpp</innerfile>
+    <innerfile refid="functionsforclient_8h">functionsforclient.h</innerfile>
+    <innerfile refid="main_8cpp">main.cpp</innerfile>
+    <innerfile refid="mainwindow_8cpp">mainwindow.cpp</innerfile>
+    <innerfile refid="mainwindow_8h">mainwindow.h</innerfile>
+    <innerfile refid="registration_8cpp">registration.cpp</innerfile>
+    <innerfile refid="registration_8h">registration.h</innerfile>
+    <innerfile refid="task1_8cpp">task1.cpp</innerfile>
+    <innerfile refid="task1_8h">task1.h</innerfile>
+    <innerfile refid="task2_8cpp">task2.cpp</innerfile>
+    <innerfile refid="task2_8h">task2.h</innerfile>
+    <innerfile refid="task3_8cpp">task3.cpp</innerfile>
+    <innerfile refid="task3_8h">task3.h</innerfile>
+    <innerfile refid="task4_8cpp">task4.cpp</innerfile>
+    <innerfile refid="task4_8h">task4.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/QTT/Sborka/inter/"/>
+  </compounddef>
+</doxygen>

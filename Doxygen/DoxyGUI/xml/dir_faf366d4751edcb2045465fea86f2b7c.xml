@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_faf366d4751edcb2045465fea86f2b7c" kind="dir">
+    <compoundname>C:/QTT/Sborka</compoundname>
+    <innerdir refid="dir_7944ca35d0f8f2f1fbf59ecb848d4eb1">C:/QTT/Sborka/inter</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/QTT/Sborka/"/>
+  </compounddef>
+</doxygen>

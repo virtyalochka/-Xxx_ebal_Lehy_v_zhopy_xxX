@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="md__c_1__q_t_t__sborka_inter__r_e_a_d_m_e" kind="page">
+    <compoundname>md_C:_QTT_Sborka_inter_README</compoundname>
+    <title>PTechnologies</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Задачей нашего проекта является тестирование пользователей в области дискретной математики. Пользователи смогут проработать такие задачи как:</para><para><orderedlist>
+<listitem><para>Нахождение совершенного паросочетания в двудольном графе;</para></listitem><listitem><para>Нахождение систем для различных представителей для множеств;</para></listitem><listitem><para>Построение наибольшего по весу совершенного паросочетания в полном двудольном графе;</para></listitem><listitem><para>Нахождение максимального потока и минимального разреза между вершинами в транспортной сети с ориентированным графом.</para></listitem></orderedlist>
+</para><para>Также для контроля знаний пользователи смогут просматривать свою статистику. </para>    </detaileddescription>
+  </compounddef>
+</doxygen>

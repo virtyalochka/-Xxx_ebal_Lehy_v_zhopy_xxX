@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_authorize" kind="class" language="C++" prot="public">
+    <compoundname>Authorize</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QDialog</basecompoundref>
+    <includes refid="authorize_8h" local="no">authorize.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_authorize_1adbd7a4df7a92c2b46dd72b2cc9e6a79a" prot="private" static="no" mutable="no">
+        <type>Ui::Authorize *</type>
+        <definition>Ui::Authorize* Authorize::ui</definition>
+        <argsstring></argsstring>
+        <name>ui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/inter/authorize.h" line="29" column="1" bodyfile="C:/QTT/Sborka/inter/authorize.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_authorize_1a9e8ffce8f2655aadc327de64fbe26442" prot="private" static="no" mutable="no">
+        <type><ref refid="class_registration" kindref="compound">Registration</ref> *</type>
+        <definition>Registration* Authorize::reg</definition>
+        <argsstring></argsstring>
+        <name>reg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/inter/authorize.h" line="30" column="1" bodyfile="C:/QTT/Sborka/inter/authorize.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_authorize_1a5de580efdb6e7bd80fc436c97e495b13" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Authorize::Authorize</definition>
+        <argsstring>(QWidget *parent=nullptr)</argsstring>
+        <name>Authorize</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/inter/authorize.h" line="17" column="1" bodyfile="C:/QTT/Sborka/inter/authorize.cpp" bodystart="5" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_authorize_1a825194daace59ada42f80210f4a77eda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Authorize::~Authorize</definition>
+        <argsstring>()</argsstring>
+        <name>~Authorize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/inter/authorize.h" line="18" column="1" bodyfile="C:/QTT/Sborka/inter/authorize.cpp" bodystart="14" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="class_authorize_1acd434ef918e9af125e8f73038f3d8634" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Authorize::on_pushButton_Auth_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_pushButton_Auth_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/inter/authorize.h" line="21" column="1" bodyfile="C:/QTT/Sborka/inter/authorize.cpp" bodystart="19" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_authorize_1a442cd6bfcf6cc3f661348eb2aaaffa41" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Authorize::on_pushButton_Reg_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_pushButton_Reg_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/inter/authorize.h" line="23" column="1" bodyfile="C:/QTT/Sborka/inter/authorize.cpp" bodystart="37" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="class_authorize_1a27ba7d2178c33c1fcf722cb7c054d210" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Authorize::authCorrect</definition>
+        <argsstring>()</argsstring>
+        <name>authCorrect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/inter/authorize.h" line="26" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>QDialog</label>
+      </node>
+      <node id="0">
+        <label>Authorize</label>
+        <link refid="class_authorize"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>QDialog</label>
+      </node>
+      <node id="2">
+        <label>Authorize</label>
+        <link refid="class_authorize"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/QTT/Sborka/inter/authorize.h" line="13" column="1" bodyfile="C:/QTT/Sborka/inter/authorize.h" bodystart="12" bodyend="31"/>
+    <listofallmembers>
+      <member refid="class_authorize_1a27ba7d2178c33c1fcf722cb7c054d210" prot="public" virt="non-virtual"><scope>Authorize</scope><name>authCorrect</name></member>
+      <member refid="class_authorize_1a5de580efdb6e7bd80fc436c97e495b13" prot="public" virt="non-virtual"><scope>Authorize</scope><name>Authorize</name></member>
+      <member refid="class_authorize_1acd434ef918e9af125e8f73038f3d8634" prot="private" virt="non-virtual"><scope>Authorize</scope><name>on_pushButton_Auth_clicked</name></member>
+      <member refid="class_authorize_1a442cd6bfcf6cc3f661348eb2aaaffa41" prot="private" virt="non-virtual"><scope>Authorize</scope><name>on_pushButton_Reg_clicked</name></member>
+      <member refid="class_authorize_1a9e8ffce8f2655aadc327de64fbe26442" prot="private" virt="non-virtual"><scope>Authorize</scope><name>reg</name></member>
+      <member refid="class_authorize_1adbd7a4df7a92c2b46dd72b2cc9e6a79a" prot="private" virt="non-virtual"><scope>Authorize</scope><name>ui</name></member>
+      <member refid="class_authorize_1a825194daace59ada42f80210f4a77eda" prot="public" virt="non-virtual"><scope>Authorize</scope><name>~Authorize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

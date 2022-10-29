@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="registration_8h" kind="file" language="C++">
+    <compoundname>registration.h</compoundname>
+    <includes local="no">QDialog</includes>
+    <includes refid="functionsforclient_8h" local="yes">functionsforclient.h</includes>
+    <includedby refid="authorize_8h" local="yes">C:/QTT/Sborka/inter/authorize.h</includedby>
+    <includedby refid="authorize_8cpp" local="yes">C:/QTT/Sborka/inter/authorize.cpp</includedby>
+    <includedby refid="mainwindow_8h" local="yes">C:/QTT/Sborka/inter/mainwindow.h</includedby>
+    <includedby refid="mainwindow_8cpp" local="yes">C:/QTT/Sborka/inter/mainwindow.cpp</includedby>
+    <includedby refid="registration_8cpp" local="yes">C:/QTT/Sborka/inter/registration.cpp</includedby>
+    <incdepgraph>
+      <node id="97">
+        <label>functionsforclient.h</label>
+        <link refid="functionsforclient_8h"/>
+        <childnode refid="98" relation="include">
+        </childnode>
+        <childnode refid="99" relation="include">
+        </childnode>
+      </node>
+      <node id="96">
+        <label>QDialog</label>
+      </node>
+      <node id="99">
+        <label>QDebug</label>
+      </node>
+      <node id="98">
+        <label>QString</label>
+      </node>
+      <node id="95">
+        <label>C:/QTT/Sborka/inter/registration.h</label>
+        <link refid="registration_8h"/>
+        <childnode refid="96" relation="include">
+        </childnode>
+        <childnode refid="97" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="101">
+        <label>C:/QTT/Sborka/inter/authorize.h</label>
+        <link refid="authorize_8h"/>
+        <childnode refid="102" relation="include">
+        </childnode>
+        <childnode refid="103" relation="include">
+        </childnode>
+      </node>
+      <node id="106">
+        <label>C:/QTT/Sborka/inter/registration.cpp</label>
+        <link refid="registration_8cpp"/>
+      </node>
+      <node id="105">
+        <label>C:/QTT/Sborka/inter/mainwindow.cpp</label>
+        <link refid="mainwindow_8cpp"/>
+      </node>
+      <node id="104">
+        <label>C:/QTT/Sborka/inter/main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="103">
+        <label>C:/QTT/Sborka/inter/mainwindow.h</label>
+        <link refid="mainwindow_8h"/>
+        <childnode refid="104" relation="include">
+        </childnode>
+        <childnode refid="105" relation="include">
+        </childnode>
+      </node>
+      <node id="102">
+        <label>C:/QTT/Sborka/inter/authorize.cpp</label>
+        <link refid="authorize_8cpp"/>
+      </node>
+      <node id="100">
+        <label>C:/QTT/Sborka/inter/registration.h</label>
+        <link refid="registration_8h"/>
+        <childnode refid="101" relation="include">
+        </childnode>
+        <childnode refid="102" relation="include">
+        </childnode>
+        <childnode refid="103" relation="include">
+        </childnode>
+        <childnode refid="105" relation="include">
+        </childnode>
+        <childnode refid="106" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_registration" prot="public">Registration</innerclass>
+    <innernamespace refid="namespace_ui">Ui</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>REGISTRATION_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>REGISTRATION_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QDialog&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="functionsforclient_8h" kindref="compound">functionsforclient.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_ui" kindref="compound">Ui</ref><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_registration" kindref="compound">Registration</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="class_registration" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_registration" kindref="compound">Registration</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QDialog</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="class_registration_1a2caa0ec4819473d5a6a84190414f24b9" kindref="member">Registration</ref>(QWidget<sp/>*parent<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_registration_1af0515fb621bcf46276090b7b26f88fc4" kindref="member">~Registration</ref>();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">signals:</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_registration_1a509fdfd1458f4cdf30209998ba1ccf33" kindref="member">authCorrect</ref>();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="24"><highlight class="comment">private<sp/>slots:</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/><sp/><sp/><sp/>void<sp/>on_pushButton_Auth_clicked();</highlight></codeline>
+<codeline lineno="26"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>Ui::Registration<sp/>*ui;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>Registration_H</highlight></codeline>
+    </programlisting>
+    <location file="C:/QTT/Sborka/inter/registration.h"/>
+  </compounddef>
+</doxygen>
