@@ -1,0 +1,26 @@
+digraph "C:/QTT/Sborka/inter/functionsforclient.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node3 [label="C:/QTT/Sborka/inter\l/functionsforclient.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node4 [label="C:/QTT/Sborka/inter\l/authorize.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$authorize_8h.html"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node5 [label="C:/QTT/Sborka/inter\l/authorize.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$authorize_8cpp.html"];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node6 [label="C:/QTT/Sborka/inter\l/mainwindow.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mainwindow_8h.html"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node7 [label="C:/QTT/Sborka/inter\l/main.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html"];
+  Node6 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node8 [label="C:/QTT/Sborka/inter\l/mainwindow.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mainwindow_8cpp.html"];
+  Node3 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node9 [label="C:/QTT/Sborka/inter\l/registration.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$registration_8h.html"];
+  Node9 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node9 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node9 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node9 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node10 [label="C:/QTT/Sborka/inter\l/registration.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$registration_8cpp.html"];
+  Node3 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node11 [label="C:/QTT/Sborka/inter\l/functionsforclient.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$functionsforclient_8cpp.html"];
+}
