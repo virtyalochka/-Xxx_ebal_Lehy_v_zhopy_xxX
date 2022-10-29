@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_0237d365a54555877660d85b8cfddece" kind="dir">
+    <compoundname>C:/QTT/Sborka/client-singleton</compoundname>
+    <innerfile refid="main_8cpp">main.cpp</innerfile>
+    <innerfile refid="singletonclient_8cpp">singletonclient.cpp</innerfile>
+    <innerfile refid="singletonclient_8h">singletonclient.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/QTT/Sborka/client-singleton/"/>
+  </compounddef>
+</doxygen>

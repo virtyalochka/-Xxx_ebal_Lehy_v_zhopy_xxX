@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="singletonclient_8h" kind="file" language="C++">
+    <compoundname>singletonclient.h</compoundname>
+    <includes local="no">QObject</includes>
+    <includes local="no">QTcpSocket</includes>
+    <includes local="no">QtNetwork</includes>
+    <includes local="no">QByteArray</includes>
+    <includes local="no">QDebug</includes>
+    <includedby refid="main_8cpp" local="yes">C:/QTT/Sborka/client-singleton/main.cpp</includedby>
+    <includedby refid="singletonclient_8cpp" local="yes">C:/QTT/Sborka/client-singleton/singletonclient.cpp</includedby>
+    <incdepgraph>
+      <node id="19">
+        <label>C:/QTT/Sborka/client-singleton/singletonclient.h</label>
+        <link refid="singletonclient_8h"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>QObject</label>
+      </node>
+      <node id="23">
+        <label>QByteArray</label>
+      </node>
+      <node id="22">
+        <label>QtNetwork</label>
+      </node>
+      <node id="24">
+        <label>QDebug</label>
+      </node>
+      <node id="21">
+        <label>QTcpSocket</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="25">
+        <label>C:/QTT/Sborka/client-singleton/singletonclient.h</label>
+        <link refid="singletonclient_8h"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>C:/QTT/Sborka/client-singleton/singletonclient.cpp</label>
+        <link refid="singletonclient_8cpp"/>
+      </node>
+      <node id="26">
+        <label>C:/QTT/Sborka/client-singleton/main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_singleton_destroyer" prot="public">SingletonDestroyer</innerclass>
+    <innerclass refid="classsingletonclient" prot="public">singletonclient</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>SINGLETONCLIENT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SINGLETONCLIENT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QObject&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QTcpSocket&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtNetwork&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QByteArray&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QDebug&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classsingletonclient" kindref="compound">singletonclient</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="class_singleton_destroyer" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_singleton_destroyer" kindref="compound">SingletonDestroyer</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classsingletonclient" kindref="compound">singletonclient</ref><sp/>*<sp/>p_instance;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="16" refid="class_singleton_destroyer_1a8ac3166871f4c5411edfdb13594dee15" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_singleton_destroyer_1a8ac3166871f4c5411edfdb13594dee15" kindref="member">~SingletonDestroyer</ref>()<sp/>{</highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>p_instance;}</highlight></codeline>
+<codeline lineno="17" refid="class_singleton_destroyer_1aeae8cd790935298bcbfde8c151f6120f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_singleton_destroyer_1aeae8cd790935298bcbfde8c151f6120f" kindref="member">initialize</ref>(<ref refid="classsingletonclient" kindref="compound">singletonclient</ref><sp/>*<sp/>p){p_instance<sp/>=<sp/>p;};</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="classsingletonclient" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classsingletonclient" kindref="compound">singletonclient</ref>:</highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QObject<sp/></highlight><highlight class="comment">//наследование,<sp/>чтобы<sp/>были<sp/>сигналы</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classsingletonclient" kindref="compound">singletonclient</ref><sp/>*<sp/>p_instance;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="class_singleton_destroyer" kindref="compound">SingletonDestroyer</ref><sp/>destroyer;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>QTcpSocket<sp/>mTcpSocket;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="classsingletonclient_1a799b3790931c71f18b3cc967d0295790" kindref="member">singletonclient</ref>(QObject<sp/>*parent<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classsingletonclient_1a799b3790931c71f18b3cc967d0295790" kindref="member">singletonclient</ref>(<ref refid="classsingletonclient" kindref="compound">singletonclient</ref>&amp;)=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classsingletonclient" kindref="compound">singletonclient</ref>&amp;<sp/><ref refid="classsingletonclient_1af382caa9600d2bdd8b746e4198d05bf9" kindref="member">operator = </ref>(<ref refid="classsingletonclient" kindref="compound">singletonclient</ref>&amp;)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="32" refid="classsingletonclient_1a34a2399f1dd0f29c78baaa74b78d570c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classsingletonclient_1a34a2399f1dd0f29c78baaa74b78d570c" kindref="member">~singletonclient</ref>()</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mTcpSocket.close();<sp/></highlight><highlight class="comment">//деструктор,<sp/>отключение<sp/>от<sp/>сервера</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36" refid="classsingletonclient_1aa93ce997b9645496c0e17460fba08432" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_singleton_destroyer" kindref="compound">SingletonDestroyer</ref>;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classsingletonclient" kindref="compound">singletonclient</ref>*<sp/><ref refid="classsingletonclient_1ac300627427e118dad66ed3724902a1e2" kindref="member">getlnstance</ref>();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classsingletonclient_1a86ecb62d0e64b7feadd803958e6b7343" kindref="member">serv</ref>(QString<sp/>text);<sp/></highlight><highlight class="comment">//отправка<sp/>на<sp/>сервер</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>signals:</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classsingletonclient_1af8bae7e684ae3d22e2bdb8969507a85c" kindref="member">message_from_server</ref>(QString<sp/>msg);<sp/></highlight><highlight class="comment">//<sp/>принятие</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>slotServerRead();</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>SINGLETONCLIENT_H</highlight></codeline>
+    </programlisting>
+    <location file="C:/QTT/Sborka/client-singleton/singletonclient.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,78 @@
+.TH "singletonclient" 3 "Sat Oct 29 2022" "Version 1.6" "Client" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+singletonclient
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <singletonclient\&.h>\fP
+.PP
+Inherits QObject\&.
+.SS "Signals"
+
+.in +1c
+.ti -1c
+.RI "void \fBmessage_from_server\fP (QString msg)"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static \fBsingletonclient\fP * \fBgetlnstance\fP ()"
+.br
+.ti -1c
+.RI "static void \fBserv\fP (QString text)"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBsingletonclient\fP (QObject *parent=nullptr)"
+.br
+.ti -1c
+.RI "\fBsingletonclient\fP (\fBsingletonclient\fP &)=delete"
+.br
+.ti -1c
+.RI "\fBsingletonclient\fP & \fBoperator=\fP (\fBsingletonclient\fP &)=delete"
+.br
+.ti -1c
+.RI "\fB~singletonclient\fP ()"
+.br
+.in -1c
+.SS "Friends"
+
+.in +1c
+.ti -1c
+.RI "class \fBSingletonDestroyer\fP"
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "singletonclient::singletonclient (QObject * parent = \fCnullptr\fP)\fC [explicit]\fP, \fC [protected]\fP"
+
+.SS "singletonclient::singletonclient (\fBsingletonclient\fP &)\fC [protected]\fP, \fC [delete]\fP"
+
+.SS "singletonclient::~singletonclient ()\fC [inline]\fP, \fC [protected]\fP"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "\fBsingletonclient\fP * singletonclient::getlnstance ()\fC [static]\fP"
+
+.SS "void singletonclient::message_from_server (QString msg)\fC [signal]\fP"
+
+.SS "\fBsingletonclient\fP& singletonclient::operator= (\fBsingletonclient\fP &)\fC [protected]\fP, \fC [delete]\fP"
+
+.SS "void singletonclient::serv (QString text)\fC [static]\fP"
+
+.SH "Friends And Related Function Documentation"
+.PP 
+.SS "friend class \fBSingletonDestroyer\fP\fC [friend]\fP"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Client from the source code\&.

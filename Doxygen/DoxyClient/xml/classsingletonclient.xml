@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classsingletonclient" kind="class" language="C++" prot="public">
+    <compoundname>singletonclient</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
+    <includes refid="singletonclient_8h" local="no">singletonclient.h</includes>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classsingletonclient_1a44726832faa90c51921c227dc369bfdf" prot="private" static="yes" mutable="no">
+        <type><ref refid="classsingletonclient" kindref="compound">singletonclient</ref> *</type>
+        <definition>singletonclient * singletonclient::p_instance</definition>
+        <argsstring></argsstring>
+        <name>p_instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/client-singleton/singletonclient.h" line="25" column="1" bodyfile="C:/QTT/Sborka/client-singleton/singletonclient.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsingletonclient_1a163968615f266a33dde160327546caab" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_singleton_destroyer" kindref="compound">SingletonDestroyer</ref></type>
+        <definition>SingletonDestroyer singletonclient::destroyer</definition>
+        <argsstring></argsstring>
+        <name>destroyer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/client-singleton/singletonclient.h" line="26" column="1" bodyfile="C:/QTT/Sborka/client-singleton/singletonclient.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsingletonclient_1a1728a80505ca1c64f395d63fe474b9b5" prot="private" static="yes" mutable="no">
+        <type>QTcpSocket</type>
+        <definition>QTcpSocket singletonclient::mTcpSocket</definition>
+        <argsstring></argsstring>
+        <name>mTcpSocket</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/client-singleton/singletonclient.h" line="27" column="1" bodyfile="C:/QTT/Sborka/client-singleton/singletonclient.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classsingletonclient_1aa93ce997b9645496c0e17460fba08432" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class SingletonDestroyer</definition>
+        <argsstring></argsstring>
+        <name>SingletonDestroyer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/client-singleton/singletonclient.h" line="36" column="1" bodyfile="C:/QTT/Sborka/client-singleton/singletonclient.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classsingletonclient_1a799b3790931c71f18b3cc967d0295790" prot="protected" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>singletonclient::singletonclient</definition>
+        <argsstring>(QObject *parent=nullptr)</argsstring>
+        <name>singletonclient</name>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/client-singleton/singletonclient.h" line="29" column="1" bodyfile="C:/QTT/Sborka/client-singleton/singletonclient.cpp" bodystart="4" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classsingletonclient_1ae22d833d9a9bb18aba90023bae28a680" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>singletonclient::singletonclient</definition>
+        <argsstring>(singletonclient &amp;)=delete</argsstring>
+        <name>singletonclient</name>
+        <param>
+          <type><ref refid="classsingletonclient" kindref="compound">singletonclient</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/client-singleton/singletonclient.h" line="30" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classsingletonclient_1af382caa9600d2bdd8b746e4198d05bf9" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classsingletonclient" kindref="compound">singletonclient</ref> &amp;</type>
+        <definition>singletonclient&amp; singletonclient::operator=</definition>
+        <argsstring>(singletonclient &amp;)=delete</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classsingletonclient" kindref="compound">singletonclient</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/client-singleton/singletonclient.h" line="31" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classsingletonclient_1a34a2399f1dd0f29c78baaa74b78d570c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>singletonclient::~singletonclient</definition>
+        <argsstring>()</argsstring>
+        <name>~singletonclient</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/client-singleton/singletonclient.h" line="32" column="1" bodyfile="C:/QTT/Sborka/client-singleton/singletonclient.h" bodystart="32" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classsingletonclient_1ac300627427e118dad66ed3724902a1e2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classsingletonclient" kindref="compound">singletonclient</ref> *</type>
+        <definition>singletonclient * singletonclient::getlnstance</definition>
+        <argsstring>()</argsstring>
+        <name>getlnstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/client-singleton/singletonclient.h" line="38" column="1" bodyfile="C:/QTT/Sborka/client-singleton/singletonclient.cpp" bodystart="12" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classsingletonclient_1a86ecb62d0e64b7feadd803958e6b7343" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void singletonclient::serv</definition>
+        <argsstring>(QString text)</argsstring>
+        <name>serv</name>
+        <param>
+          <type>QString</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/client-singleton/singletonclient.h" line="39" column="1" bodyfile="C:/QTT/Sborka/client-singleton/singletonclient.cpp" bodystart="21" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="classsingletonclient_1af8bae7e684ae3d22e2bdb8969507a85c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void singletonclient::message_from_server</definition>
+        <argsstring>(QString msg)</argsstring>
+        <name>message_from_server</name>
+        <param>
+          <type>QString</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/client-singleton/singletonclient.h" line="43" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="classsingletonclient_1ae36b1d37eac6c395e38209c5c68fdff5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void singletonclient::slotServerRead</definition>
+        <argsstring>()</argsstring>
+        <name>slotServerRead</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/client-singleton/singletonclient.h" line="46" column="1" bodyfile="C:/QTT/Sborka/client-singleton/singletonclient.cpp" bodystart="26" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>QObject</label>
+      </node>
+      <node id="0">
+        <label>singletonclient</label>
+        <link refid="classsingletonclient"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>QObject</label>
+      </node>
+      <node id="2">
+        <label>singletonclient</label>
+        <link refid="classsingletonclient"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/QTT/Sborka/client-singleton/singletonclient.h" line="22" column="1" bodyfile="C:/QTT/Sborka/client-singleton/singletonclient.h" bodystart="21" bodyend="48"/>
+    <listofallmembers>
+      <member refid="classsingletonclient_1a163968615f266a33dde160327546caab" prot="private" virt="non-virtual"><scope>singletonclient</scope><name>destroyer</name></member>
+      <member refid="classsingletonclient_1ac300627427e118dad66ed3724902a1e2" prot="public" virt="non-virtual"><scope>singletonclient</scope><name>getlnstance</name></member>
+      <member refid="classsingletonclient_1af8bae7e684ae3d22e2bdb8969507a85c" prot="public" virt="non-virtual"><scope>singletonclient</scope><name>message_from_server</name></member>
+      <member refid="classsingletonclient_1a1728a80505ca1c64f395d63fe474b9b5" prot="private" virt="non-virtual"><scope>singletonclient</scope><name>mTcpSocket</name></member>
+      <member refid="classsingletonclient_1af382caa9600d2bdd8b746e4198d05bf9" prot="protected" virt="non-virtual"><scope>singletonclient</scope><name>operator=</name></member>
+      <member refid="classsingletonclient_1a44726832faa90c51921c227dc369bfdf" prot="private" virt="non-virtual"><scope>singletonclient</scope><name>p_instance</name></member>
+      <member refid="classsingletonclient_1a86ecb62d0e64b7feadd803958e6b7343" prot="public" virt="non-virtual"><scope>singletonclient</scope><name>serv</name></member>
+      <member refid="classsingletonclient_1a799b3790931c71f18b3cc967d0295790" prot="protected" virt="non-virtual"><scope>singletonclient</scope><name>singletonclient</name></member>
+      <member refid="classsingletonclient_1ae22d833d9a9bb18aba90023bae28a680" prot="protected" virt="non-virtual"><scope>singletonclient</scope><name>singletonclient</name></member>
+      <member refid="classsingletonclient_1aa93ce997b9645496c0e17460fba08432" prot="protected" virt="non-virtual"><scope>singletonclient</scope><name>SingletonDestroyer</name></member>
+      <member refid="classsingletonclient_1ae36b1d37eac6c395e38209c5c68fdff5" prot="private" virt="non-virtual"><scope>singletonclient</scope><name>slotServerRead</name></member>
+      <member refid="classsingletonclient_1a34a2399f1dd0f29c78baaa74b78d570c" prot="protected" virt="non-virtual"><scope>singletonclient</scope><name>~singletonclient</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

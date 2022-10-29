@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="_r_e_a_d_m_e_8md" kind="file" language="Markdown">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>PTechnologies</highlight></codeline>
+<codeline><highlight class="normal"><sp/></highlight></codeline>
+<codeline><highlight class="normal">Задачей<sp/>нашего<sp/>проекта<sp/>является<sp/>тестирование<sp/>пользователей<sp/>в<sp/>области<sp/>дискретной<sp/>математики.<sp/>Пользователи<sp/>смогут<sp/>проработать<sp/>такие<sp/>задачи<sp/>как:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">1.<sp/>Нахождение<sp/>совершенного<sp/>паросочетания<sp/>в<sp/>двудольном<sp/>графе;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">2.<sp/>Нахождение<sp/>систем<sp/>для<sp/>различных<sp/>представителей<sp/>для<sp/>множеств;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">3.<sp/>Построение<sp/>наибольшего<sp/>по<sp/>весу<sp/>совершенного<sp/>паросочетания<sp/>в<sp/>полном<sp/>двудольном<sp/>графе;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">4.<sp/>Нахождение<sp/>максимального<sp/>потока<sp/>и<sp/>минимального<sp/>разреза<sp/>между<sp/>вершинами<sp/>в<sp/>транспортной<sp/>сети<sp/>с<sp/>ориентированным<sp/>графом.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Также<sp/>для<sp/>контроля<sp/>знаний<sp/>пользователи<sp/>смогут<sp/>просматривать<sp/>свою<sp/>статистику.</highlight></codeline>
+    </programlisting>
+    <location file="C:/QTT/Sborka/client-singleton/README.md"/>
+  </compounddef>
+</doxygen>

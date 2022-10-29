@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.14">
+  <compound refid="classsingletonclient" kind="class"><name>singletonclient</name>
+    <member refid="classsingletonclient_1a44726832faa90c51921c227dc369bfdf" kind="variable"><name>p_instance</name></member>
+    <member refid="classsingletonclient_1a163968615f266a33dde160327546caab" kind="variable"><name>destroyer</name></member>
+    <member refid="classsingletonclient_1a1728a80505ca1c64f395d63fe474b9b5" kind="variable"><name>mTcpSocket</name></member>
+    <member refid="classsingletonclient_1aa93ce997b9645496c0e17460fba08432" kind="friend"><name>SingletonDestroyer</name></member>
+    <member refid="classsingletonclient_1a799b3790931c71f18b3cc967d0295790" kind="function"><name>singletonclient</name></member>
+    <member refid="classsingletonclient_1ae22d833d9a9bb18aba90023bae28a680" kind="function"><name>singletonclient</name></member>
+    <member refid="classsingletonclient_1af382caa9600d2bdd8b746e4198d05bf9" kind="function"><name>operator=</name></member>
+    <member refid="classsingletonclient_1a34a2399f1dd0f29c78baaa74b78d570c" kind="function"><name>~singletonclient</name></member>
+    <member refid="classsingletonclient_1ac300627427e118dad66ed3724902a1e2" kind="function"><name>getlnstance</name></member>
+    <member refid="classsingletonclient_1a86ecb62d0e64b7feadd803958e6b7343" kind="function"><name>serv</name></member>
+    <member refid="classsingletonclient_1af8bae7e684ae3d22e2bdb8969507a85c" kind="signal"><name>message_from_server</name></member>
+    <member refid="classsingletonclient_1ae36b1d37eac6c395e38209c5c68fdff5" kind="slot"><name>slotServerRead</name></member>
+  </compound>
+  <compound refid="class_singleton_destroyer" kind="class"><name>SingletonDestroyer</name>
+    <member refid="class_singleton_destroyer_1a8ccd8817e0ef4c0442ccb6818f428247" kind="variable"><name>p_instance</name></member>
+    <member refid="class_singleton_destroyer_1a8ac3166871f4c5411edfdb13594dee15" kind="function"><name>~SingletonDestroyer</name></member>
+    <member refid="class_singleton_destroyer_1aeae8cd790935298bcbfde8c151f6120f" kind="function"><name>initialize</name></member>
+  </compound>
+  <compound refid="main_8cpp" kind="file"><name>main.cpp</name>
+    <member refid="main_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="singletonclient_8cpp" kind="file"><name>singletonclient.cpp</name>
+  </compound>
+  <compound refid="singletonclient_8h" kind="file"><name>singletonclient.h</name>
+  </compound>
+  <compound refid="md__c_1__q_t_t__sborka_client-singleton__r_e_a_d_m_e" kind="page"><name>md_C:_QTT_Sborka_client-singleton_README</name>
+  </compound>
+  <compound refid="dir_0237d365a54555877660d85b8cfddece" kind="dir"><name>C:/QTT/Sborka/client-singleton</name>
+  </compound>
+  <compound refid="dir_7ade2b00d1ea63b77325b74a453e11b5" kind="dir"><name>C:/QTT</name>
+  </compound>
+  <compound refid="dir_faf366d4751edcb2045465fea86f2b7c" kind="dir"><name>C:/QTT/Sborka</name>
+  </compound>
+</doxygenindex>

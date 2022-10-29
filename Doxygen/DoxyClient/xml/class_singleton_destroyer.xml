@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_singleton_destroyer" kind="class" language="C++" prot="public">
+    <compoundname>SingletonDestroyer</compoundname>
+    <includes refid="singletonclient_8h" local="no">singletonclient.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_singleton_destroyer_1a8ccd8817e0ef4c0442ccb6818f428247" prot="private" static="no" mutable="no">
+        <type><ref refid="classsingletonclient" kindref="compound">singletonclient</ref> *</type>
+        <definition>singletonclient* SingletonDestroyer::p_instance</definition>
+        <argsstring></argsstring>
+        <name>p_instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/client-singleton/singletonclient.h" line="14" column="1" bodyfile="C:/QTT/Sborka/client-singleton/singletonclient.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_singleton_destroyer_1a8ac3166871f4c5411edfdb13594dee15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SingletonDestroyer::~SingletonDestroyer</definition>
+        <argsstring>()</argsstring>
+        <name>~SingletonDestroyer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/client-singleton/singletonclient.h" line="16" column="1" bodyfile="C:/QTT/Sborka/client-singleton/singletonclient.h" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_singleton_destroyer_1aeae8cd790935298bcbfde8c151f6120f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SingletonDestroyer::initialize</definition>
+        <argsstring>(singletonclient *p)</argsstring>
+        <name>initialize</name>
+        <param>
+          <type><ref refid="classsingletonclient" kindref="compound">singletonclient</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/client-singleton/singletonclient.h" line="17" column="1" bodyfile="C:/QTT/Sborka/client-singleton/singletonclient.h" bodystart="17" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/QTT/Sborka/client-singleton/singletonclient.h" line="12" column="1" bodyfile="C:/QTT/Sborka/client-singleton/singletonclient.h" bodystart="11" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_singleton_destroyer_1aeae8cd790935298bcbfde8c151f6120f" prot="public" virt="non-virtual"><scope>SingletonDestroyer</scope><name>initialize</name></member>
+      <member refid="class_singleton_destroyer_1a8ccd8817e0ef4c0442ccb6818f428247" prot="private" virt="non-virtual"><scope>SingletonDestroyer</scope><name>p_instance</name></member>
+      <member refid="class_singleton_destroyer_1a8ac3166871f4c5411edfdb13594dee15" prot="public" virt="non-virtual"><scope>SingletonDestroyer</scope><name>~SingletonDestroyer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
