@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_bd38549e818aa8f6640521707af91929" kind="dir">
+    <compoundname>C:/QTT/Sborka/server</compoundname>
+    <innerfile refid="database_8cpp">database.cpp</innerfile>
+    <innerfile refid="database_8h">database.h</innerfile>
+    <innerfile refid="functionsforserver_8cpp">functionsforserver.cpp</innerfile>
+    <innerfile refid="functionsforserver_8h">functionsforserver.h</innerfile>
+    <innerfile refid="main_8cpp">main.cpp</innerfile>
+    <innerfile refid="mytcpserver_8cpp">mytcpserver.cpp</innerfile>
+    <innerfile refid="mytcpserver_8h">mytcpserver.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/QTT/Sborka/server/"/>
+  </compounddef>
+</doxygen>

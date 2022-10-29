@@ -1,0 +1,76 @@
+.TH "DataBase" 3 "Sat Oct 29 2022" "Version 1.6" "Server" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+DataBase
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <database\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBcloseDB\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static \fBDataBase\fP * \fBgetInstance\fP ()"
+.br
+.ti -1c
+.RI "static QByteArray \fBtest\fP ()"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBDataBase\fP ()"
+.br
+.ti -1c
+.RI "\fBDataBase\fP (const \fBDataBase\fP &)"
+.br
+.ti -1c
+.RI "\fBDataBase\fP & \fBoperator=\fP (\fBDataBase\fP &)"
+.br
+.ti -1c
+.RI "\fB~DataBase\fP ()"
+.br
+.in -1c
+.SS "Friends"
+
+.in +1c
+.ti -1c
+.RI "class \fBDataBaseDestroyer\fP"
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "DataBase::DataBase ()\fC [protected]\fP"
+
+.SS "DataBase::DataBase (const \fBDataBase\fP &)\fC [protected]\fP"
+
+.SS "DataBase::~DataBase ()\fC [inline]\fP, \fC [protected]\fP"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "void DataBase::closeDB ()\fC [inline]\fP"
+
+.SS "static \fBDataBase\fP* DataBase::getInstance ()\fC [inline]\fP, \fC [static]\fP"
+
+.SS "\fBDataBase\fP& DataBase::operator= (\fBDataBase\fP &)\fC [protected]\fP"
+
+.SS "static QByteArray DataBase::test ()\fC [inline]\fP, \fC [static]\fP"
+
+.SH "Friends And Related Function Documentation"
+.PP 
+.SS "friend class \fBDataBaseDestroyer\fP\fC [friend]\fP"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Server from the source code\&.

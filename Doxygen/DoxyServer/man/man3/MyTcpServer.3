@@ -1,0 +1,53 @@
+.TH "MyTcpServer" 3 "Sat Oct 29 2022" "Version 1.6" "Server" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+MyTcpServer
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <mytcpserver\&.h>\fP
+.PP
+Inherits QObject\&.
+.SS "Public Slots"
+
+.in +1c
+.ti -1c
+.RI "void \fBslotNewConnection\fP ()"
+.br
+.ti -1c
+.RI "void \fBslotClientDisconnected\fP ()"
+.br
+.ti -1c
+.RI "void \fBslotServerRead\fP ()"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBMyTcpServer\fP (QObject *parent=nullptr)"
+.br
+.ti -1c
+.RI "\fB~MyTcpServer\fP ()"
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "MyTcpServer::MyTcpServer (QObject * parent = \fCnullptr\fP)\fC [explicit]\fP"
+
+.SS "MyTcpServer::~MyTcpServer ()"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "void MyTcpServer::slotClientDisconnected ()\fC [slot]\fP"
+
+.SS "void MyTcpServer::slotNewConnection ()\fC [slot]\fP"
+
+.SS "void MyTcpServer::slotServerRead ()\fC [slot]\fP"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Server from the source code\&.

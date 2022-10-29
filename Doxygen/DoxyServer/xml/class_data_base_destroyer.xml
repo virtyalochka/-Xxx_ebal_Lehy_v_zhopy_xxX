@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_data_base_destroyer" kind="class" language="C++" prot="public">
+    <compoundname>DataBaseDestroyer</compoundname>
+    <includes refid="database_8h" local="no">database.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_data_base_destroyer_1ad0946fc72bb2272ef4a94ff2ed012626" prot="private" static="no" mutable="no">
+        <type><ref refid="class_data_base" kindref="compound">DataBase</ref> *</type>
+        <definition>DataBase* DataBaseDestroyer::dataBasePointer</definition>
+        <argsstring></argsstring>
+        <name>dataBasePointer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/server/database.h" line="14" column="1" bodyfile="C:/QTT/Sborka/server/database.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_data_base_destroyer_1a2be0488f65d1495e0e303efb01013e62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DataBaseDestroyer::~DataBaseDestroyer</definition>
+        <argsstring>()</argsstring>
+        <name>~DataBaseDestroyer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/server/database.h" line="16" column="1" bodyfile="C:/QTT/Sborka/server/database.h" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_base_destroyer_1aee85b804dca5015f185f2c1b47d85aa3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DataBaseDestroyer::initialize</definition>
+        <argsstring>(DataBase *p)</argsstring>
+        <name>initialize</name>
+        <param>
+          <type><ref refid="class_data_base" kindref="compound">DataBase</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/server/database.h" line="20" column="1" bodyfile="C:/QTT/Sborka/server/database.h" bodystart="20" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/QTT/Sborka/server/database.h" line="12" column="1" bodyfile="C:/QTT/Sborka/server/database.h" bodystart="11" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_data_base_destroyer_1ad0946fc72bb2272ef4a94ff2ed012626" prot="private" virt="non-virtual"><scope>DataBaseDestroyer</scope><name>dataBasePointer</name></member>
+      <member refid="class_data_base_destroyer_1aee85b804dca5015f185f2c1b47d85aa3" prot="public" virt="non-virtual"><scope>DataBaseDestroyer</scope><name>initialize</name></member>
+      <member refid="class_data_base_destroyer_1a2be0488f65d1495e0e303efb01013e62" prot="public" virt="non-virtual"><scope>DataBaseDestroyer</scope><name>~DataBaseDestroyer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

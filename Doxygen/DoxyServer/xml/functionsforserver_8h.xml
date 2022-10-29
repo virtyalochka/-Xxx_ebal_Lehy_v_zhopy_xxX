@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="functionsforserver_8h" kind="file" language="C++">
+    <compoundname>functionsforserver.h</compoundname>
+    <includes local="no">QString</includes>
+    <includedby refid="functionsforserver_8cpp" local="yes">C:/QTT/Sborka/server/functionsforserver.cpp</includedby>
+    <includedby refid="mytcpserver_8h" local="yes">C:/QTT/Sborka/server/mytcpserver.h</includedby>
+    <includedby refid="mytcpserver_8cpp" local="yes">C:/QTT/Sborka/server/mytcpserver.cpp</includedby>
+    <incdepgraph>
+      <node id="31">
+        <label>QString</label>
+      </node>
+      <node id="30">
+        <label>C:/QTT/Sborka/server/functionsforserver.h</label>
+        <link refid="functionsforserver_8h"/>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="33">
+        <label>C:/QTT/Sborka/server/functionsforserver.cpp</label>
+        <link refid="functionsforserver_8cpp"/>
+      </node>
+      <node id="32">
+        <label>C:/QTT/Sborka/server/functionsforserver.h</label>
+        <link refid="functionsforserver_8h"/>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>C:/QTT/Sborka/server/mytcpserver.cpp</label>
+        <link refid="mytcpserver_8cpp"/>
+      </node>
+      <node id="35">
+        <label>C:/QTT/Sborka/server/main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="34">
+        <label>C:/QTT/Sborka/server/mytcpserver.h</label>
+        <link refid="mytcpserver_8h"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="functionsforserver_8h_1af15516dbde168cd1fabbce8e4209b5a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QByteArray</type>
+        <definition>QByteArray parsing</definition>
+        <argsstring>(QString data_from_client)</argsstring>
+        <name>parsing</name>
+        <param>
+          <type>QString</type>
+          <declname>data_from_client</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/server/functionsforserver.h" line="5" column="1" bodyfile="C:/QTT/Sborka/server/functionsforserver.cpp" bodystart="16" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="functionsforserver_8h_1a35ec2c03b2fa42dbee1c13e5b89d768c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QByteArray</type>
+        <definition>QByteArray auth</definition>
+        <argsstring>(QString log)</argsstring>
+        <name>auth</name>
+        <param>
+          <type>QString</type>
+          <declname>log</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/server/functionsforserver.h" line="7" column="1" bodyfile="C:/QTT/Sborka/server/functionsforserver.cpp" bodystart="10" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>FUNCTIONSFORSERVER_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FUNCTIONSFORSERVER_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QString&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">QByteArray<sp/><ref refid="functionsforserver_8h_1af15516dbde168cd1fabbce8e4209b5a5" kindref="member">parsing</ref><sp/>(QString<sp/>data_from_client);</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">QByteArray<sp/><ref refid="functionsforserver_8h_1a35ec2c03b2fa42dbee1c13e5b89d768c" kindref="member">auth</ref>(QString<sp/>log);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>FUNCTIONSFORSERVER_H</highlight></codeline>
+    </programlisting>
+    <location file="C:/QTT/Sborka/server/functionsforserver.h"/>
+  </compounddef>
+</doxygen>

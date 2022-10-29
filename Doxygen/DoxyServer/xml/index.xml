@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.14">
+  <compound refid="class_data_base" kind="class"><name>DataBase</name>
+    <member refid="class_data_base_1ab300623b38d0e99faecdda9ad9416b81" kind="variable"><name>dataBasePointer</name></member>
+    <member refid="class_data_base_1ac851735f0aee0090c2e3bde3c3c06b13" kind="variable"><name>destroyer</name></member>
+    <member refid="class_data_base_1afaefc7539a2749f748e4da979f6d7ce8" kind="variable"><name>db</name></member>
+    <member refid="class_data_base_1a2de1189b514a6e1f7c31c180dc27f000" kind="friend"><name>DataBaseDestroyer</name></member>
+    <member refid="class_data_base_1a9fbd4936704ce4de391f92e92a072074" kind="function"><name>DataBase</name></member>
+    <member refid="class_data_base_1aebdd1dfd170fef81ff0365609d63e533" kind="function"><name>DataBase</name></member>
+    <member refid="class_data_base_1ac5c47c845425deafd990f249077297ab" kind="function"><name>operator=</name></member>
+    <member refid="class_data_base_1a9d4629e705ccaa4897e9650222a2a648" kind="function"><name>~DataBase</name></member>
+    <member refid="class_data_base_1abe2f75c0d6067414a1fbb22dc166ca46" kind="function"><name>getInstance</name></member>
+    <member refid="class_data_base_1a0f8839a75f6881d6b4a9e7d3eed0fb78" kind="function"><name>test</name></member>
+    <member refid="class_data_base_1adb17c56e22c3fe77bbd682bee8811a56" kind="function"><name>closeDB</name></member>
+  </compound>
+  <compound refid="class_data_base_destroyer" kind="class"><name>DataBaseDestroyer</name>
+    <member refid="class_data_base_destroyer_1ad0946fc72bb2272ef4a94ff2ed012626" kind="variable"><name>dataBasePointer</name></member>
+    <member refid="class_data_base_destroyer_1a2be0488f65d1495e0e303efb01013e62" kind="function"><name>~DataBaseDestroyer</name></member>
+    <member refid="class_data_base_destroyer_1aee85b804dca5015f185f2c1b47d85aa3" kind="function"><name>initialize</name></member>
+  </compound>
+  <compound refid="class_my_tcp_server" kind="class"><name>MyTcpServer</name>
+    <member refid="class_my_tcp_server_1a7d854875e1e02887023ec9aac1a1542c" kind="variable"><name>mTcpServer</name></member>
+    <member refid="class_my_tcp_server_1a3370983b05b3a521e7645494da5b0a03" kind="variable"><name>clients</name></member>
+    <member refid="class_my_tcp_server_1acf367c4695b4d160c7a2d25c2afaaec4" kind="function"><name>MyTcpServer</name></member>
+    <member refid="class_my_tcp_server_1ab39e651ff7c37c152215c02c225e79ef" kind="function"><name>~MyTcpServer</name></member>
+    <member refid="class_my_tcp_server_1a0ba7316ffe1a26c57fabde9e74b6c8dc" kind="slot"><name>slotNewConnection</name></member>
+    <member refid="class_my_tcp_server_1a3e040c49dbefd65b9a58ab662fc9f7a2" kind="slot"><name>slotClientDisconnected</name></member>
+    <member refid="class_my_tcp_server_1ab4a64d2eab985d723090963f5c8a2882" kind="slot"><name>slotServerRead</name></member>
+  </compound>
+  <compound refid="database_8cpp" kind="file"><name>database.cpp</name>
+  </compound>
+  <compound refid="database_8h" kind="file"><name>database.h</name>
+  </compound>
+  <compound refid="functionsforserver_8cpp" kind="file"><name>functionsforserver.cpp</name>
+    <member refid="functionsforserver_8cpp_1a35ec2c03b2fa42dbee1c13e5b89d768c" kind="function"><name>auth</name></member>
+    <member refid="functionsforserver_8cpp_1af15516dbde168cd1fabbce8e4209b5a5" kind="function"><name>parsing</name></member>
+  </compound>
+  <compound refid="functionsforserver_8h" kind="file"><name>functionsforserver.h</name>
+    <member refid="functionsforserver_8h_1af15516dbde168cd1fabbce8e4209b5a5" kind="function"><name>parsing</name></member>
+    <member refid="functionsforserver_8h_1a35ec2c03b2fa42dbee1c13e5b89d768c" kind="function"><name>auth</name></member>
+  </compound>
+  <compound refid="main_8cpp" kind="file"><name>main.cpp</name>
+  </compound>
+  <compound refid="mytcpserver_8cpp" kind="file"><name>mytcpserver.cpp</name>
+  </compound>
+  <compound refid="mytcpserver_8h" kind="file"><name>mytcpserver.h</name>
+  </compound>
+  <compound refid="dir_7ade2b00d1ea63b77325b74a453e11b5" kind="dir"><name>C:/QTT</name>
+  </compound>
+  <compound refid="dir_faf366d4751edcb2045465fea86f2b7c" kind="dir"><name>C:/QTT/Sborka</name>
+  </compound>
+  <compound refid="dir_bd38549e818aa8f6640521707af91929" kind="dir"><name>C:/QTT/Sborka/server</name>
+  </compound>
+</doxygenindex>

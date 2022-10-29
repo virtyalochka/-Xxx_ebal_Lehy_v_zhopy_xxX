@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_data_base" kind="class" language="C++" prot="public">
+    <compoundname>DataBase</compoundname>
+    <includes refid="database_8h" local="no">database.h</includes>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_data_base_1ab300623b38d0e99faecdda9ad9416b81" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_data_base" kindref="compound">DataBase</ref> *</type>
+        <definition>DataBase* DataBase::dataBasePointer</definition>
+        <argsstring></argsstring>
+        <name>dataBasePointer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/server/database.h" line="30" column="1" bodyfile="C:/QTT/Sborka/server/database.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_base_1ac851735f0aee0090c2e3bde3c3c06b13" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_data_base_destroyer" kindref="compound">DataBaseDestroyer</ref></type>
+        <definition>DataBaseDestroyer DataBase::destroyer</definition>
+        <argsstring></argsstring>
+        <name>destroyer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/server/database.h" line="31" column="1" bodyfile="C:/QTT/Sborka/server/database.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_base_1afaefc7539a2749f748e4da979f6d7ce8" prot="private" static="yes" mutable="no">
+        <type>QSqlDatabase</type>
+        <definition>QSqlDatabase DataBase::db</definition>
+        <argsstring></argsstring>
+        <name>db</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/server/database.h" line="32" column="1" bodyfile="C:/QTT/Sborka/server/database.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_data_base_1a2de1189b514a6e1f7c31c180dc27f000" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class DataBaseDestroyer</definition>
+        <argsstring></argsstring>
+        <name>DataBaseDestroyer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/server/database.h" line="38" column="1" bodyfile="C:/QTT/Sborka/server/database.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_data_base_1a9fbd4936704ce4de391f92e92a072074" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DataBase::DataBase</definition>
+        <argsstring>()</argsstring>
+        <name>DataBase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/server/database.h" line="34" column="1" bodyfile="C:/QTT/Sborka/server/database.cpp" bodystart="3" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_base_1aebdd1dfd170fef81ff0365609d63e533" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DataBase::DataBase</definition>
+        <argsstring>(const DataBase &amp;)</argsstring>
+        <name>DataBase</name>
+        <param>
+          <type>const <ref refid="class_data_base" kindref="compound">DataBase</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/server/database.h" line="35" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_base_1ac5c47c845425deafd990f249077297ab" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_data_base" kindref="compound">DataBase</ref> &amp;</type>
+        <definition>DataBase&amp; DataBase::operator=</definition>
+        <argsstring>(DataBase &amp;)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="class_data_base" kindref="compound">DataBase</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/server/database.h" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_base_1a9d4629e705ccaa4897e9650222a2a648" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DataBase::~DataBase</definition>
+        <argsstring>()</argsstring>
+        <name>~DataBase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/server/database.h" line="37" column="1" bodyfile="C:/QTT/Sborka/server/database.h" bodystart="37" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_data_base_1abe2f75c0d6067414a1fbb22dc166ca46" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_data_base" kindref="compound">DataBase</ref> *</type>
+        <definition>static DataBase* DataBase::getInstance</definition>
+        <argsstring>()</argsstring>
+        <name>getInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/server/database.h" line="40" column="1" bodyfile="C:/QTT/Sborka/server/database.h" bodystart="40" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_base_1a0f8839a75f6881d6b4a9e7d3eed0fb78" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QByteArray</type>
+        <definition>static QByteArray DataBase::test</definition>
+        <argsstring>()</argsstring>
+        <name>test</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/server/database.h" line="55" column="1" bodyfile="C:/QTT/Sborka/server/database.h" bodystart="55" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_data_base_1adb17c56e22c3fe77bbd682bee8811a56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DataBase::closeDB</definition>
+        <argsstring>()</argsstring>
+        <name>closeDB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Sborka/server/database.h" line="60" column="1" bodyfile="C:/QTT/Sborka/server/database.h" bodystart="60" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/QTT/Sborka/server/database.h" line="28" column="1" bodyfile="C:/QTT/Sborka/server/database.h" bodystart="27" bodyend="64"/>
+    <listofallmembers>
+      <member refid="class_data_base_1adb17c56e22c3fe77bbd682bee8811a56" prot="public" virt="non-virtual"><scope>DataBase</scope><name>closeDB</name></member>
+      <member refid="class_data_base_1a9fbd4936704ce4de391f92e92a072074" prot="protected" virt="non-virtual"><scope>DataBase</scope><name>DataBase</name></member>
+      <member refid="class_data_base_1aebdd1dfd170fef81ff0365609d63e533" prot="protected" virt="non-virtual"><scope>DataBase</scope><name>DataBase</name></member>
+      <member refid="class_data_base_1a2de1189b514a6e1f7c31c180dc27f000" prot="protected" virt="non-virtual"><scope>DataBase</scope><name>DataBaseDestroyer</name></member>
+      <member refid="class_data_base_1ab300623b38d0e99faecdda9ad9416b81" prot="private" virt="non-virtual"><scope>DataBase</scope><name>dataBasePointer</name></member>
+      <member refid="class_data_base_1afaefc7539a2749f748e4da979f6d7ce8" prot="private" virt="non-virtual"><scope>DataBase</scope><name>db</name></member>
+      <member refid="class_data_base_1ac851735f0aee0090c2e3bde3c3c06b13" prot="private" virt="non-virtual"><scope>DataBase</scope><name>destroyer</name></member>
+      <member refid="class_data_base_1abe2f75c0d6067414a1fbb22dc166ca46" prot="public" virt="non-virtual"><scope>DataBase</scope><name>getInstance</name></member>
+      <member refid="class_data_base_1ac5c47c845425deafd990f249077297ab" prot="protected" virt="non-virtual"><scope>DataBase</scope><name>operator=</name></member>
+      <member refid="class_data_base_1a0f8839a75f6881d6b4a9e7d3eed0fb78" prot="public" virt="non-virtual"><scope>DataBase</scope><name>test</name></member>
+      <member refid="class_data_base_1a9d4629e705ccaa4897e9650222a2a648" prot="protected" virt="non-virtual"><scope>DataBase</scope><name>~DataBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
