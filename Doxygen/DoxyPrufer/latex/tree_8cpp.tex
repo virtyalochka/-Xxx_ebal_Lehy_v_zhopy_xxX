@@ -1,0 +1,72 @@
+\hypertarget{tree_8cpp}{}\section{C\+:/\+Q\+T\+T/\+Prufer/tree.cpp File Reference}
+\label{tree_8cpp}\index{C\+:/\+Q\+T\+T/\+Prufer/tree.\+cpp@{C\+:/\+Q\+T\+T/\+Prufer/tree.\+cpp}}
+{\ttfamily \#include \char`\"{}tree.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}node.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$algorithm$>$}\newline
+{\ttfamily \#include $<$Q\+Debug$>$}\newline
+Include dependency graph for tree.\+cpp\+:
+% FIG 0
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{tree_8cpp_aa2689508b7e22b4b10192cb1053361dd}{find\+\_\+min\+\_\+absent}} (vector$<$ int $>$ v)
+\item 
+vector$<$ vector$<$ int $>$ $>$ \mbox{\hyperlink{tree_8cpp_adb1078fe5ebc1751c4887ea2780f7084}{get\+\_\+smeg\+\_\+by\+\_\+cod\+\_\+prufer}} (vector$<$ int $>$ v)
+\item 
+void \mbox{\hyperlink{tree_8cpp_a0def1743f5048e19a9b00c1919c92939}{print\+\_\+smeg}} (vector$<$ vector$<$ int $>$$>$ smeg)
+\item 
+bool \mbox{\hyperlink{tree_8cpp_adc701f9874fa74f1a97b6440127cea1f}{is\+\_\+in\+\_\+using}} (vector$<$ int $>$ using\+\_\+nodes, int ind)
+\item 
+void \mbox{\hyperlink{tree_8cpp_a78fc972785a6eff7b001d6ce35821275}{create\+\_\+by\+\_\+smeg}} (vector$<$ vector$<$ int $>$$>$ smeg, vector$<$ int $>$ using\+\_\+nodes, \mbox{\hyperlink{class_tree}{Tree}} \&tree, \mbox{\hyperlink{class_node}{Node}} $\ast$p)
+\item 
+\mbox{\hyperlink{class_tree}{Tree}} \& \mbox{\hyperlink{tree_8cpp_a1dd9840b99dddee4bb3c0e1b0324c5ce}{create\+\_\+tree\+\_\+by\+\_\+list\+\_\+of\+\_\+smeg}} (vector$<$ vector$<$ int $>$$>$ smeg, int root\+\_\+info)
+\item 
+\mbox{\hyperlink{class_tree}{Tree}} \mbox{\hyperlink{tree_8cpp_acfa099abce101cbb5c229763362f35ed}{create\+\_\+tree\+\_\+by\+\_\+cod\+\_\+prufer}} (vector$<$ int $>$ prufer)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{tree_8cpp_a78fc972785a6eff7b001d6ce35821275}\label{tree_8cpp_a78fc972785a6eff7b001d6ce35821275}} 
+\index{tree.\+cpp@{tree.\+cpp}!create\+\_\+by\+\_\+smeg@{create\+\_\+by\+\_\+smeg}}
+\index{create\+\_\+by\+\_\+smeg@{create\+\_\+by\+\_\+smeg}!tree.\+cpp@{tree.\+cpp}}
+\subsubsection{\texorpdfstring{create\+\_\+by\+\_\+smeg()}{create\_by\_smeg()}}
+{\footnotesize\ttfamily void create\+\_\+by\+\_\+smeg (\begin{DoxyParamCaption}\item[{vector$<$ vector$<$ int $>$$>$}]{smeg,  }\item[{vector$<$ int $>$}]{using\+\_\+nodes,  }\item[{\mbox{\hyperlink{class_tree}{Tree}} \&}]{tree,  }\item[{\mbox{\hyperlink{class_node}{Node}} $\ast$}]{p }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{tree_8cpp_acfa099abce101cbb5c229763362f35ed}\label{tree_8cpp_acfa099abce101cbb5c229763362f35ed}} 
+\index{tree.\+cpp@{tree.\+cpp}!create\+\_\+tree\+\_\+by\+\_\+cod\+\_\+prufer@{create\+\_\+tree\+\_\+by\+\_\+cod\+\_\+prufer}}
+\index{create\+\_\+tree\+\_\+by\+\_\+cod\+\_\+prufer@{create\+\_\+tree\+\_\+by\+\_\+cod\+\_\+prufer}!tree.\+cpp@{tree.\+cpp}}
+\subsubsection{\texorpdfstring{create\+\_\+tree\+\_\+by\+\_\+cod\+\_\+prufer()}{create\_tree\_by\_cod\_prufer()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_tree}{Tree}} create\+\_\+tree\+\_\+by\+\_\+cod\+\_\+prufer (\begin{DoxyParamCaption}\item[{vector$<$ int $>$}]{prufer }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{tree_8cpp_a1dd9840b99dddee4bb3c0e1b0324c5ce}\label{tree_8cpp_a1dd9840b99dddee4bb3c0e1b0324c5ce}} 
+\index{tree.\+cpp@{tree.\+cpp}!create\+\_\+tree\+\_\+by\+\_\+list\+\_\+of\+\_\+smeg@{create\+\_\+tree\+\_\+by\+\_\+list\+\_\+of\+\_\+smeg}}
+\index{create\+\_\+tree\+\_\+by\+\_\+list\+\_\+of\+\_\+smeg@{create\+\_\+tree\+\_\+by\+\_\+list\+\_\+of\+\_\+smeg}!tree.\+cpp@{tree.\+cpp}}
+\subsubsection{\texorpdfstring{create\+\_\+tree\+\_\+by\+\_\+list\+\_\+of\+\_\+smeg()}{create\_tree\_by\_list\_of\_smeg()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_tree}{Tree}}\& create\+\_\+tree\+\_\+by\+\_\+list\+\_\+of\+\_\+smeg (\begin{DoxyParamCaption}\item[{vector$<$ vector$<$ int $>$$>$}]{smeg,  }\item[{int}]{root\+\_\+info }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{tree_8cpp_aa2689508b7e22b4b10192cb1053361dd}\label{tree_8cpp_aa2689508b7e22b4b10192cb1053361dd}} 
+\index{tree.\+cpp@{tree.\+cpp}!find\+\_\+min\+\_\+absent@{find\+\_\+min\+\_\+absent}}
+\index{find\+\_\+min\+\_\+absent@{find\+\_\+min\+\_\+absent}!tree.\+cpp@{tree.\+cpp}}
+\subsubsection{\texorpdfstring{find\+\_\+min\+\_\+absent()}{find\_min\_absent()}}
+{\footnotesize\ttfamily int find\+\_\+min\+\_\+absent (\begin{DoxyParamCaption}\item[{vector$<$ int $>$}]{v }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{tree_8cpp_adb1078fe5ebc1751c4887ea2780f7084}\label{tree_8cpp_adb1078fe5ebc1751c4887ea2780f7084}} 
+\index{tree.\+cpp@{tree.\+cpp}!get\+\_\+smeg\+\_\+by\+\_\+cod\+\_\+prufer@{get\+\_\+smeg\+\_\+by\+\_\+cod\+\_\+prufer}}
+\index{get\+\_\+smeg\+\_\+by\+\_\+cod\+\_\+prufer@{get\+\_\+smeg\+\_\+by\+\_\+cod\+\_\+prufer}!tree.\+cpp@{tree.\+cpp}}
+\subsubsection{\texorpdfstring{get\+\_\+smeg\+\_\+by\+\_\+cod\+\_\+prufer()}{get\_smeg\_by\_cod\_prufer()}}
+{\footnotesize\ttfamily vector$<$vector $<$int$>$ $>$ get\+\_\+smeg\+\_\+by\+\_\+cod\+\_\+prufer (\begin{DoxyParamCaption}\item[{vector$<$ int $>$}]{v }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{tree_8cpp_adc701f9874fa74f1a97b6440127cea1f}\label{tree_8cpp_adc701f9874fa74f1a97b6440127cea1f}} 
+\index{tree.\+cpp@{tree.\+cpp}!is\+\_\+in\+\_\+using@{is\+\_\+in\+\_\+using}}
+\index{is\+\_\+in\+\_\+using@{is\+\_\+in\+\_\+using}!tree.\+cpp@{tree.\+cpp}}
+\subsubsection{\texorpdfstring{is\+\_\+in\+\_\+using()}{is\_in\_using()}}
+{\footnotesize\ttfamily bool is\+\_\+in\+\_\+using (\begin{DoxyParamCaption}\item[{vector$<$ int $>$}]{using\+\_\+nodes,  }\item[{int}]{ind }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{tree_8cpp_a0def1743f5048e19a9b00c1919c92939}\label{tree_8cpp_a0def1743f5048e19a9b00c1919c92939}} 
+\index{tree.\+cpp@{tree.\+cpp}!print\+\_\+smeg@{print\+\_\+smeg}}
+\index{print\+\_\+smeg@{print\+\_\+smeg}!tree.\+cpp@{tree.\+cpp}}
+\subsubsection{\texorpdfstring{print\+\_\+smeg()}{print\_smeg()}}
+{\footnotesize\ttfamily void print\+\_\+smeg (\begin{DoxyParamCaption}\item[{vector$<$ vector$<$ int $>$$>$}]{smeg }\end{DoxyParamCaption})}
+
