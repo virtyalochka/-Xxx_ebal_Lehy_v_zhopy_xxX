@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_main_window" kind="class" language="C++" prot="public">
+    <compoundname>MainWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QMainWindow</basecompoundref>
+    <includes refid="mainwindow_8h" local="no">mainwindow.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_main_window_1a35466a70ed47252a0191168126a352a5" prot="private" static="no" mutable="no">
+        <type>Ui::MainWindow *</type>
+        <definition>Ui::MainWindow* MainWindow::ui</definition>
+        <argsstring></argsstring>
+        <name>ui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Prufer/mainwindow.h" line="25" column="1" bodyfile="C:/QTT/Prufer/mainwindow.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1acc4d6588707b9ea108feefab93c12104" prot="private" static="no" mutable="no">
+        <type><ref refid="class_tree" kindref="compound">Tree</ref></type>
+        <definition>Tree MainWindow::tree</definition>
+        <argsstring></argsstring>
+        <name>tree</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Prufer/mainwindow.h" line="26" column="1" bodyfile="C:/QTT/Prufer/mainwindow.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_main_window_1a996c5a2b6f77944776856f08ec30858d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MainWindow::MainWindow</definition>
+        <argsstring>(QWidget *parent=nullptr)</argsstring>
+        <name>MainWindow</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Prufer/mainwindow.h" line="16" column="1" bodyfile="C:/QTT/Prufer/mainwindow.cpp" bodystart="12" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_window_1ae98d00a93bc118200eeef9f9bba1dba7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MainWindow::~MainWindow</definition>
+        <argsstring>()</argsstring>
+        <name>~MainWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Prufer/mainwindow.h" line="17" column="1" bodyfile="C:/QTT/Prufer/mainwindow.cpp" bodystart="24" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="class_main_window_1a4de79c63c7fa0b8d7c468ac71f20be81" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_pushButton_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_pushButton_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Prufer/mainwindow.h" line="20" column="1" bodyfile="C:/QTT/Prufer/mainwindow.cpp" bodystart="30" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1ae0e46dc3da4ee07bf66e73e20300220c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_pushButton_2_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_pushButton_2_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Prufer/mainwindow.h" line="22" column="1" bodyfile="C:/QTT/Prufer/mainwindow.cpp" bodystart="71" bodyend="142"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>QMainWindow</label>
+      </node>
+      <node id="4">
+        <label>MainWindow</label>
+        <link refid="class_main_window"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7">
+        <label>QMainWindow</label>
+      </node>
+      <node id="6">
+        <label>MainWindow</label>
+        <link refid="class_main_window"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/QTT/Prufer/mainwindow.h" line="12" column="1" bodyfile="C:/QTT/Prufer/mainwindow.h" bodystart="11" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_main_window_1a996c5a2b6f77944776856f08ec30858d" prot="public" virt="non-virtual"><scope>MainWindow</scope><name>MainWindow</name></member>
+      <member refid="class_main_window_1ae0e46dc3da4ee07bf66e73e20300220c" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_pushButton_2_clicked</name></member>
+      <member refid="class_main_window_1a4de79c63c7fa0b8d7c468ac71f20be81" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_pushButton_clicked</name></member>
+      <member refid="class_main_window_1acc4d6588707b9ea108feefab93c12104" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>tree</name></member>
+      <member refid="class_main_window_1a35466a70ed47252a0191168126a352a5" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>ui</name></member>
+      <member refid="class_main_window_1ae98d00a93bc118200eeef9f9bba1dba7" prot="public" virt="non-virtual"><scope>MainWindow</scope><name>~MainWindow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

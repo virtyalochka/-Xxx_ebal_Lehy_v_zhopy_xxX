@@ -1,0 +1,65 @@
+.TH "C:/QTT/Prufer/tree.cpp" 3 "Mon Oct 31 2022" "Version 1.6" "Prufer" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+C:/QTT/Prufer/tree.cpp
+.SH SYNOPSIS
+.br
+.PP
+\fC#include 'tree\&.h'\fP
+.br
+\fC#include 'node\&.h'\fP
+.br
+\fC#include <iostream>\fP
+.br
+\fC#include <vector>\fP
+.br
+\fC#include <algorithm>\fP
+.br
+\fC#include <QDebug>\fP
+.br
+
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBfind_min_absent\fP (vector< int > v)"
+.br
+.ti -1c
+.RI "vector< vector< int > > \fBget_smeg_by_cod_prufer\fP (vector< int > v)"
+.br
+.ti -1c
+.RI "void \fBprint_smeg\fP (vector< vector< int >> smeg)"
+.br
+.ti -1c
+.RI "bool \fBis_in_using\fP (vector< int > using_nodes, int ind)"
+.br
+.ti -1c
+.RI "void \fBcreate_by_smeg\fP (vector< vector< int >> smeg, vector< int > using_nodes, \fBTree\fP &tree, \fBNode\fP *p)"
+.br
+.ti -1c
+.RI "\fBTree\fP & \fBcreate_tree_by_list_of_smeg\fP (vector< vector< int >> smeg, int root_info)"
+.br
+.ti -1c
+.RI "\fBTree\fP \fBcreate_tree_by_cod_prufer\fP (vector< int > prufer)"
+.br
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "void create_by_smeg (vector< vector< int >> smeg, vector< int > using_nodes, \fBTree\fP & tree, \fBNode\fP * p)"
+
+.SS "\fBTree\fP create_tree_by_cod_prufer (vector< int > prufer)"
+
+.SS "\fBTree\fP& create_tree_by_list_of_smeg (vector< vector< int >> smeg, int root_info)"
+
+.SS "int find_min_absent (vector< int > v)"
+
+.SS "vector<vector <int> > get_smeg_by_cod_prufer (vector< int > v)"
+
+.SS "bool is_in_using (vector< int > using_nodes, int ind)"
+
+.SS "void print_smeg (vector< vector< int >> smeg)"
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Prufer from the source code\&.

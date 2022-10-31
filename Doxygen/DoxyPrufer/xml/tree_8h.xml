@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="tree_8h" kind="file" language="C++">
+    <compoundname>tree.h</compoundname>
+    <includes local="no">vector</includes>
+    <includes refid="node_8h" local="yes">node.h</includes>
+    <includedby refid="form_8h" local="yes">C:/QTT/Prufer/form.h</includedby>
+    <includedby refid="mainwindow_8h" local="yes">C:/QTT/Prufer/mainwindow.h</includedby>
+    <includedby refid="tree_8cpp" local="yes">C:/QTT/Prufer/tree.cpp</includedby>
+    <incdepgraph>
+      <node id="68">
+        <label>C:/QTT/Prufer/tree.h</label>
+        <link refid="tree_8h"/>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="70" relation="include">
+        </childnode>
+      </node>
+      <node id="70">
+        <label>node.h</label>
+        <link refid="node_8h"/>
+        <childnode refid="69" relation="include">
+        </childnode>
+      </node>
+      <node id="69">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="74">
+        <label>C:/QTT/Prufer/mainwindow.h</label>
+        <link refid="mainwindow_8h"/>
+        <childnode refid="75" relation="include">
+        </childnode>
+        <childnode refid="76" relation="include">
+        </childnode>
+      </node>
+      <node id="71">
+        <label>C:/QTT/Prufer/tree.h</label>
+        <link refid="tree_8h"/>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="74" relation="include">
+        </childnode>
+        <childnode refid="77" relation="include">
+        </childnode>
+      </node>
+      <node id="76">
+        <label>C:/QTT/Prufer/mainwindow.cpp</label>
+        <link refid="mainwindow_8cpp"/>
+      </node>
+      <node id="77">
+        <label>C:/QTT/Prufer/tree.cpp</label>
+        <link refid="tree_8cpp"/>
+      </node>
+      <node id="72">
+        <label>C:/QTT/Prufer/form.h</label>
+        <link refid="form_8h"/>
+        <childnode refid="73" relation="include">
+        </childnode>
+      </node>
+      <node id="73">
+        <label>C:/QTT/Prufer/form.cpp</label>
+        <link refid="form_8cpp"/>
+      </node>
+      <node id="75">
+        <label>C:/QTT/Prufer/main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_tree" prot="public">Tree</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="tree_8h_1aa2689508b7e22b4b10192cb1053361dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int find_min_absent</definition>
+        <argsstring>(vector&lt; int &gt; v)</argsstring>
+        <name>find_min_absent</name>
+        <param>
+          <type>vector&lt; int &gt;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Prufer/tree.h" line="39" column="1" bodyfile="C:/QTT/Prufer/tree.cpp" bodystart="281" bodyend="309"/>
+      </memberdef>
+      <memberdef kind="function" id="tree_8h_1adb1078fe5ebc1751c4887ea2780f7084" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; vector&lt; int &gt; &gt;</type>
+        <definition>vector&lt;vector &lt;int&gt; &gt; get_smeg_by_cod_prufer</definition>
+        <argsstring>(vector&lt; int &gt; v)</argsstring>
+        <name>get_smeg_by_cod_prufer</name>
+        <param>
+          <type>vector&lt; int &gt;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Prufer/tree.h" line="41" column="1" bodyfile="C:/QTT/Prufer/tree.cpp" bodystart="312" bodyend="352"/>
+      </memberdef>
+      <memberdef kind="function" id="tree_8h_1a0def1743f5048e19a9b00c1919c92939" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void print_smeg</definition>
+        <argsstring>(vector&lt; vector&lt; int &gt;&gt; smeg)</argsstring>
+        <name>print_smeg</name>
+        <param>
+          <type>vector&lt; vector&lt; int &gt;&gt;</type>
+          <declname>smeg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Prufer/tree.h" line="42" column="1" bodyfile="C:/QTT/Prufer/tree.cpp" bodystart="354" bodyend="373"/>
+      </memberdef>
+      <memberdef kind="function" id="tree_8h_1adc701f9874fa74f1a97b6440127cea1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool is_in_using</definition>
+        <argsstring>(vector&lt; int &gt; using_nodes, int ind)</argsstring>
+        <name>is_in_using</name>
+        <param>
+          <type>vector&lt; int &gt;</type>
+          <declname>using_nodes</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ind</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Prufer/tree.h" line="44" column="1" bodyfile="C:/QTT/Prufer/tree.cpp" bodystart="375" bodyend="388"/>
+      </memberdef>
+      <memberdef kind="function" id="tree_8h_1a78fc972785a6eff7b001d6ce35821275" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void create_by_smeg</definition>
+        <argsstring>(vector&lt; vector&lt; int &gt;&gt; smeg, vector&lt; int &gt; using_nodes, Tree &amp;tree, Node *p)</argsstring>
+        <name>create_by_smeg</name>
+        <param>
+          <type>vector&lt; vector&lt; int &gt;&gt;</type>
+          <declname>smeg</declname>
+        </param>
+        <param>
+          <type>vector&lt; int &gt;</type>
+          <declname>using_nodes</declname>
+        </param>
+        <param>
+          <type><ref refid="class_tree" kindref="compound">Tree</ref> &amp;</type>
+          <declname>tree</declname>
+        </param>
+        <param>
+          <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Prufer/tree.h" line="45" column="1" bodyfile="C:/QTT/Prufer/tree.cpp" bodystart="391" bodyend="412"/>
+      </memberdef>
+      <memberdef kind="function" id="tree_8h_1a1dd9840b99dddee4bb3c0e1b0324c5ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_tree" kindref="compound">Tree</ref> &amp;</type>
+        <definition>Tree&amp; create_tree_by_list_of_smeg</definition>
+        <argsstring>(vector&lt; vector&lt; int &gt;&gt; smeg, int root_info)</argsstring>
+        <name>create_tree_by_list_of_smeg</name>
+        <param>
+          <type>vector&lt; vector&lt; int &gt;&gt;</type>
+          <declname>smeg</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>root_info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Prufer/tree.h" line="46" column="1" bodyfile="C:/QTT/Prufer/tree.cpp" bodystart="415" bodyend="429"/>
+      </memberdef>
+      <memberdef kind="function" id="tree_8h_1acfa099abce101cbb5c229763362f35ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_tree" kindref="compound">Tree</ref></type>
+        <definition>Tree create_tree_by_cod_prufer</definition>
+        <argsstring>(vector&lt; int &gt; prufer)</argsstring>
+        <name>create_tree_by_cod_prufer</name>
+        <param>
+          <type>vector&lt; int &gt;</type>
+          <declname>prufer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Prufer/tree.h" line="48" column="1" bodyfile="C:/QTT/Prufer/tree.cpp" bodystart="433" bodyend="447"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>TREE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TREE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="node_8h" kindref="compound">node.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacestd" kindref="compound">std</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="class_tree" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_tree" kindref="compound">Tree</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="11" refid="class_tree_1ad8e46ce0aead5778cbdd784d1e370d5f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_node" kindref="compound">Node</ref>*<sp/><ref refid="class_tree_1ad8e46ce0aead5778cbdd784d1e370d5f" kindref="member">root</ref>;<sp/></highlight><highlight class="comment">//Ссылка<sp/>на<sp/>корень<sp/>дерева</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="class_tree_1af99cb1765b0249e5d79541313199786c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_tree_1af99cb1765b0249e5d79541313199786c" kindref="member">n</ref>;<sp/></highlight><highlight class="comment">//<sp/>Количество<sp/>узлов<sp/>в<sp/>дереве</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="class_tree_1ab4f6271eb3d30383287bbb634b90e3b5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>vector<sp/>&lt;Node*&gt;<sp/><ref refid="class_tree_1ab4f6271eb3d30383287bbb634b90e3b5" kindref="member">listiks</ref>;</highlight></codeline>
+<codeline lineno="14" refid="class_tree_1ac173ac7a6fb3d48b0c2226ec848966ee" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>vector<sp/>&lt;int&gt;<sp/><ref refid="class_tree_1ac173ac7a6fb3d48b0c2226ec848966ee" kindref="member">prufer</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_tree" kindref="compound">Tree</ref>();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_tree" kindref="compound">Tree</ref><sp/>(<ref refid="class_node" kindref="compound">Node</ref>*<sp/>root);</highlight><highlight class="comment">//Конструктор<sp/>с<sp/>параметром</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Add(<ref refid="class_node" kindref="compound">Node</ref>*<sp/>parent,<sp/><ref refid="class_node" kindref="compound">Node</ref>*<sp/>child);<sp/></highlight><highlight class="comment">//<sp/>К<sp/>родителю<sp/>нужно<sp/>добавить<sp/>ребёнка,<sp/>это<sp/>значит,<sp/>что<sp/>мы<sp/>должны<sp/>внести<sp/>его<sp/>в<sp/>вектор<sp/>детей<sp/>родителя</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>print1(<ref refid="class_node" kindref="compound">Node</ref>*<sp/>p);<sp/></highlight><highlight class="comment">//<sp/>p<sp/>указатель<sp/>на<sp/>узел</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>print(<ref refid="class_node" kindref="compound">Node</ref>*<sp/>p,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>tab);</highlight><highlight class="comment">//Вывод<sp/>всего<sp/>дерева<sp/>(поддерева)<sp/>с<sp/>узла<sp/>p</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>create();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_node" kindref="compound">Node</ref>*<sp/>delete_listok(<ref refid="class_node" kindref="compound">Node</ref>*<sp/>listok);<sp/></highlight><highlight class="comment">//Передаём<sp/>указатель<sp/>на<sp/>узел<sp/>листок<sp/>для<sp/>уничтожения</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_node" kindref="compound">Node</ref>*<sp/>Find_Node_by_info(<ref refid="class_node" kindref="compound">Node</ref>*<sp/>p,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>info);</highlight><highlight class="comment">//Программа<sp/>находит<sp/>по<sp/>заданному<sp/>значению<sp/>узел<sp/>дерева</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Функция<sp/>изменяет<sp/>значения<sp/>в<sp/>узлах<sp/>дерева</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>change_info(vector<sp/>&lt;int&gt;<sp/>v_new);<sp/></highlight><highlight class="comment">//Нужно<sp/>находить<sp/>нужные<sp/>элементы<sp/>по<sp/>старому<sp/>значению,<sp/>и<sp/>менять<sp/>в<sp/>них<sp/>значения<sp/>на<sp/>новые</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>vector<sp/>&lt;Node*&gt;<sp/>get_listiks(<ref refid="class_node" kindref="compound">Node</ref>*<sp/>p);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>vector<sp/>&lt;Node*&gt;<sp/>get_list_of_listiks(<ref refid="class_node" kindref="compound">Node</ref>*<sp/>p);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>print_listiks();</highlight><highlight class="comment">//<sp/>Печатает<sp/>листки<sp/>дерева</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_node" kindref="compound">Node</ref>*<sp/>find_min_listiks();</highlight><highlight class="comment">//Находит<sp/>листик<sp/>с<sp/>минимальным<sp/>значением</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>print_prufer();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_node" kindref="compound">Node</ref>*<sp/>delete_root_with_one_child();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Получает<sp/>код<sp/>Прюфера<sp/>из<sp/>дерева</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>vector<sp/>&lt;int&gt;<sp/>get_pruf_cod();</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="comment">//Функция<sp/>на<sp/>вход<sp/>которой<sp/>подаётся<sp/>вектор<sp/>целых<sp/>чисел,<sp/>она<sp/>ищет<sp/>минимальное<sp/>из<sp/>отсутствующих</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Вункция<sp/>возвращает<sp/>это<sp/>отсутствующее<sp/>числа</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="tree_8h_1aa2689508b7e22b4b10192cb1053361dd" kindref="member">find_min_absent</ref>(vector<sp/>&lt;int&gt;<sp/>v);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//Функция<sp/>создаёт<sp/>список<sp/>смежности<sp/>из<sp/>кода<sp/>Прюфера,<sp/>на<sp/>вход<sp/>подаётся<sp/>вектор<sp/>целых<sp/>чисел,<sp/>на<sp/>выход<sp/>подаётся<sp/>вектор<sp/>векторов<sp/>целых<sp/>чисел</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal">vector<sp/>&lt;vector<sp/>&lt;int&gt;&gt;<sp/><ref refid="tree_8h_1adb1078fe5ebc1751c4887ea2780f7084" kindref="member">get_smeg_by_cod_prufer</ref>(vector<sp/>&lt;int&gt;<sp/>v);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="tree_8h_1a0def1743f5048e19a9b00c1919c92939" kindref="member">print_smeg</ref>(vector<sp/>&lt;vector<sp/>&lt;int&gt;&gt;<sp/>smeg);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="comment">//Проверяет<sp/>на<sp/>наличие<sp/>данное<sp/>значение<sp/>в<sp/>векторе,<sp/>если<sp/>есть,<sp/>то<sp/>возвращает<sp/>True</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="tree_8h_1adc701f9874fa74f1a97b6440127cea1f" kindref="member">is_in_using</ref>(vector<sp/>&lt;int&gt;<sp/>using_nodes,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ind);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="tree_8h_1a78fc972785a6eff7b001d6ce35821275" kindref="member">create_by_smeg</ref>(vector<sp/>&lt;vector<sp/>&lt;int&gt;&gt;<sp/>smeg,<sp/>vector<sp/>&lt;int&gt;<sp/>using_nodes,<sp/><ref refid="class_tree" kindref="compound">Tree</ref>&amp;<sp/>tree,<sp/><ref refid="class_node" kindref="compound">Node</ref>*<sp/>p);</highlight><highlight class="comment">//<sp/>Поскольку<sp/>дерево<sp/>будем<sp/>меняится,<sp/>ставим<sp/>имперсанд<sp/>(ссылка),<sp/>и<sp/>передаём<sp/>по<sp/>адресу</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><ref refid="class_tree" kindref="compound">Tree</ref>&amp;<sp/><ref refid="tree_8h_1a1dd9840b99dddee4bb3c0e1b0324c5ce" kindref="member">create_tree_by_list_of_smeg</ref>(vector<sp/>&lt;vector<sp/>&lt;int&gt;&gt;<sp/>smeg,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>root_info);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Главная<sp/>программа<sp/>Декодера</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><ref refid="class_tree" kindref="compound">Tree</ref><sp/><ref refid="tree_8h_1acfa099abce101cbb5c229763362f35ed" kindref="member">create_tree_by_cod_prufer</ref>(vector<sp/>&lt;int&gt;<sp/>prufer);<sp/></highlight><highlight class="comment">//Эта<sp/>программа<sp/>по<sp/>коду<sp/>Прюфера<sp/>строит<sp/>дерево</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>TREE_H</highlight></codeline>
+    </programlisting>
+    <location file="C:/QTT/Prufer/tree.h"/>
+  </compounddef>
+</doxygen>

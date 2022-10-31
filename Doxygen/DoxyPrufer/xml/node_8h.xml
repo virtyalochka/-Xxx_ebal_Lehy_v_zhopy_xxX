@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="node_8h" kind="file" language="C++">
+    <compoundname>node.h</compoundname>
+    <includes local="no">vector</includes>
+    <includedby refid="tree_8h" local="yes">C:/QTT/Prufer/tree.h</includedby>
+    <includedby refid="node_8cpp" local="yes">C:/QTT/Prufer/node.cpp</includedby>
+    <includedby refid="tree_8cpp" local="yes">C:/QTT/Prufer/tree.cpp</includedby>
+    <incdepgraph>
+      <node id="49">
+        <label>C:/QTT/Prufer/node.h</label>
+        <link refid="node_8h"/>
+        <childnode refid="50" relation="include">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="55">
+        <label>C:/QTT/Prufer/mainwindow.h</label>
+        <link refid="mainwindow_8h"/>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+      </node>
+      <node id="52">
+        <label>C:/QTT/Prufer/tree.h</label>
+        <link refid="tree_8h"/>
+        <childnode refid="53" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+      </node>
+      <node id="57">
+        <label>C:/QTT/Prufer/mainwindow.cpp</label>
+        <link refid="mainwindow_8cpp"/>
+      </node>
+      <node id="51">
+        <label>C:/QTT/Prufer/node.h</label>
+        <link refid="node_8h"/>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+      </node>
+      <node id="58">
+        <label>C:/QTT/Prufer/tree.cpp</label>
+        <link refid="tree_8cpp"/>
+      </node>
+      <node id="53">
+        <label>C:/QTT/Prufer/form.h</label>
+        <link refid="form_8h"/>
+        <childnode refid="54" relation="include">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>C:/QTT/Prufer/form.cpp</label>
+        <link refid="form_8cpp"/>
+      </node>
+      <node id="56">
+        <label>C:/QTT/Prufer/main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="59">
+        <label>C:/QTT/Prufer/node.cpp</label>
+        <link refid="node_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_node" prot="public">Node</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>NODE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NODE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacestd" kindref="compound">std</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="class_node" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_node" kindref="compound">Node</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="11" refid="class_node_1a9d0627058327302f27c2b8e3b69bcf72" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_node_1a9d0627058327302f27c2b8e3b69bcf72" kindref="member">info</ref>;<sp/></highlight><highlight class="comment">//<sp/>Узел<sp/>содержит<sp/>целое<sp/>число</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="class_node_1ad8184598cdea70e4bbdfd76f2b0f9e85" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_node" kindref="compound">Node</ref>*<sp/><ref refid="class_node_1ad8184598cdea70e4bbdfd76f2b0f9e85" kindref="member">parent</ref>;<sp/></highlight><highlight class="comment">//<sp/>Указатель<sp/>на<sp/>родительский<sp/>узел</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="class_node_1acc82c6348fd723e07aaf27bda5c2ea8a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>vector<sp/>&lt;Node*&gt;<sp/><ref refid="class_node_1acc82c6348fd723e07aaf27bda5c2ea8a" kindref="member">childs</ref>;<sp/></highlight><highlight class="comment">//<sp/>Массив<sp/>детей</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_node" kindref="compound">Node</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>info);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_node" kindref="compound">Node</ref>();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>NODE_H</highlight></codeline>
+    </programlisting>
+    <location file="C:/QTT/Prufer/node.h"/>
+  </compounddef>
+</doxygen>

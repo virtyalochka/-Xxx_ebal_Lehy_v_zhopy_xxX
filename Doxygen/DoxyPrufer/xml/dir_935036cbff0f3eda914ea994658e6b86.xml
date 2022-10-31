@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_935036cbff0f3eda914ea994658e6b86" kind="dir">
+    <compoundname>C:/QTT/Prufer</compoundname>
+    <innerfile refid="form_8cpp">form.cpp</innerfile>
+    <innerfile refid="form_8h">form.h</innerfile>
+    <innerfile refid="main_8cpp">main.cpp</innerfile>
+    <innerfile refid="mainwindow_8cpp">mainwindow.cpp</innerfile>
+    <innerfile refid="mainwindow_8h">mainwindow.h</innerfile>
+    <innerfile refid="node_8cpp">node.cpp</innerfile>
+    <innerfile refid="node_8h">node.h</innerfile>
+    <innerfile refid="tree_8cpp">tree.cpp</innerfile>
+    <innerfile refid="tree_8h">tree.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/QTT/Prufer/"/>
+  </compounddef>
+</doxygen>

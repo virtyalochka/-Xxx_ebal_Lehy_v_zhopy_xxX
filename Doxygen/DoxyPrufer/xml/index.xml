@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.14">
+  <compound refid="class_form" kind="class"><name>Form</name>
+    <member refid="class_form_1a73bcc598a15a14b7a41f941b62571d3d" kind="variable"><name>ui</name></member>
+    <member refid="class_form_1a77dc98b0e573f7ca6481a5fb344a4c2f" kind="variable"><name>tree</name></member>
+    <member refid="class_form_1a23cb20192cdf7cf444d109b53e036ad0" kind="function"><name>Form</name></member>
+    <member refid="class_form_1a9cda7cce41e81bfaca51e922d4f9b98f" kind="function"><name>~Form</name></member>
+    <member refid="class_form_1a8cf06acbd2a86d769d8f25ba174ff336" kind="slot"><name>on_pushButton_clicked</name></member>
+  </compound>
+  <compound refid="class_main_window" kind="class"><name>MainWindow</name>
+    <member refid="class_main_window_1a35466a70ed47252a0191168126a352a5" kind="variable"><name>ui</name></member>
+    <member refid="class_main_window_1acc4d6588707b9ea108feefab93c12104" kind="variable"><name>tree</name></member>
+    <member refid="class_main_window_1a996c5a2b6f77944776856f08ec30858d" kind="function"><name>MainWindow</name></member>
+    <member refid="class_main_window_1ae98d00a93bc118200eeef9f9bba1dba7" kind="function"><name>~MainWindow</name></member>
+    <member refid="class_main_window_1a4de79c63c7fa0b8d7c468ac71f20be81" kind="slot"><name>on_pushButton_clicked</name></member>
+    <member refid="class_main_window_1ae0e46dc3da4ee07bf66e73e20300220c" kind="slot"><name>on_pushButton_2_clicked</name></member>
+  </compound>
+  <compound refid="class_node" kind="class"><name>Node</name>
+    <member refid="class_node_1a9d0627058327302f27c2b8e3b69bcf72" kind="variable"><name>info</name></member>
+    <member refid="class_node_1ad8184598cdea70e4bbdfd76f2b0f9e85" kind="variable"><name>parent</name></member>
+    <member refid="class_node_1acc82c6348fd723e07aaf27bda5c2ea8a" kind="variable"><name>childs</name></member>
+    <member refid="class_node_1a448d242b74cb8422bf239d92267c53f1" kind="function"><name>Node</name></member>
+    <member refid="class_node_1ad7a34779cad45d997bfd6d3d8043c75f" kind="function"><name>Node</name></member>
+  </compound>
+  <compound refid="class_tree" kind="class"><name>Tree</name>
+    <member refid="class_tree_1ad8e46ce0aead5778cbdd784d1e370d5f" kind="variable"><name>root</name></member>
+    <member refid="class_tree_1af99cb1765b0249e5d79541313199786c" kind="variable"><name>n</name></member>
+    <member refid="class_tree_1ab4f6271eb3d30383287bbb634b90e3b5" kind="variable"><name>listiks</name></member>
+    <member refid="class_tree_1ac173ac7a6fb3d48b0c2226ec848966ee" kind="variable"><name>prufer</name></member>
+    <member refid="class_tree_1ad376a7c639d857312f5de2ef47482f68" kind="function"><name>Tree</name></member>
+    <member refid="class_tree_1ac81e597c6214a8b3ab5bd0c0a1d52c27" kind="function"><name>Tree</name></member>
+    <member refid="class_tree_1a2fd711fc3360481e87185a7a70615865" kind="function"><name>Add</name></member>
+    <member refid="class_tree_1acc690f24219bb3816a7552b443bfb02b" kind="function"><name>print1</name></member>
+    <member refid="class_tree_1ad041f83eddd83c74f689dae8283c054f" kind="function"><name>print</name></member>
+    <member refid="class_tree_1a95ad032dcc32977751fa60d4715f7c18" kind="function"><name>create</name></member>
+    <member refid="class_tree_1a0059ab7470d1df6b88ec6d275067bcdb" kind="function"><name>delete_listok</name></member>
+    <member refid="class_tree_1a16def61abcbc1dbb631a664e7bb02c98" kind="function"><name>Find_Node_by_info</name></member>
+    <member refid="class_tree_1a83de2e5a9d0269b1d4a136533b288d19" kind="function"><name>change_info</name></member>
+    <member refid="class_tree_1a8713847783793b6d5b0580b34d406f6d" kind="function"><name>get_listiks</name></member>
+    <member refid="class_tree_1a1feaf70139e6802c0b940c7c7fae9299" kind="function"><name>get_list_of_listiks</name></member>
+    <member refid="class_tree_1ac2c37627e5e75085896379f2855d4306" kind="function"><name>print_listiks</name></member>
+    <member refid="class_tree_1ab640efe82cc69b28a9ddd61ac4410a89" kind="function"><name>find_min_listiks</name></member>
+    <member refid="class_tree_1a5b7c6c2e01f8787b9ce3fb1684fc847b" kind="function"><name>print_prufer</name></member>
+    <member refid="class_tree_1ae0a6d8260dafecfd861410bfee87a868" kind="function"><name>delete_root_with_one_child</name></member>
+    <member refid="class_tree_1a723ce7ab4f1030e95a959e11a22833e7" kind="function"><name>get_pruf_cod</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="namespace_ui" kind="namespace"><name>Ui</name>
+  </compound>
+  <compound refid="form_8cpp" kind="file"><name>form.cpp</name>
+  </compound>
+  <compound refid="form_8h" kind="file"><name>form.h</name>
+  </compound>
+  <compound refid="main_8cpp" kind="file"><name>main.cpp</name>
+    <member refid="main_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="mainwindow_8cpp" kind="file"><name>mainwindow.cpp</name>
+  </compound>
+  <compound refid="mainwindow_8h" kind="file"><name>mainwindow.h</name>
+  </compound>
+  <compound refid="node_8cpp" kind="file"><name>node.cpp</name>
+  </compound>
+  <compound refid="node_8h" kind="file"><name>node.h</name>
+  </compound>
+  <compound refid="tree_8cpp" kind="file"><name>tree.cpp</name>
+    <member refid="tree_8cpp_1aa2689508b7e22b4b10192cb1053361dd" kind="function"><name>find_min_absent</name></member>
+    <member refid="tree_8cpp_1adb1078fe5ebc1751c4887ea2780f7084" kind="function"><name>get_smeg_by_cod_prufer</name></member>
+    <member refid="tree_8cpp_1a0def1743f5048e19a9b00c1919c92939" kind="function"><name>print_smeg</name></member>
+    <member refid="tree_8cpp_1adc701f9874fa74f1a97b6440127cea1f" kind="function"><name>is_in_using</name></member>
+    <member refid="tree_8cpp_1a78fc972785a6eff7b001d6ce35821275" kind="function"><name>create_by_smeg</name></member>
+    <member refid="tree_8cpp_1a1dd9840b99dddee4bb3c0e1b0324c5ce" kind="function"><name>create_tree_by_list_of_smeg</name></member>
+    <member refid="tree_8cpp_1acfa099abce101cbb5c229763362f35ed" kind="function"><name>create_tree_by_cod_prufer</name></member>
+  </compound>
+  <compound refid="tree_8h" kind="file"><name>tree.h</name>
+    <member refid="tree_8h_1aa2689508b7e22b4b10192cb1053361dd" kind="function"><name>find_min_absent</name></member>
+    <member refid="tree_8h_1adb1078fe5ebc1751c4887ea2780f7084" kind="function"><name>get_smeg_by_cod_prufer</name></member>
+    <member refid="tree_8h_1a0def1743f5048e19a9b00c1919c92939" kind="function"><name>print_smeg</name></member>
+    <member refid="tree_8h_1adc701f9874fa74f1a97b6440127cea1f" kind="function"><name>is_in_using</name></member>
+    <member refid="tree_8h_1a78fc972785a6eff7b001d6ce35821275" kind="function"><name>create_by_smeg</name></member>
+    <member refid="tree_8h_1a1dd9840b99dddee4bb3c0e1b0324c5ce" kind="function"><name>create_tree_by_list_of_smeg</name></member>
+    <member refid="tree_8h_1acfa099abce101cbb5c229763362f35ed" kind="function"><name>create_tree_by_cod_prufer</name></member>
+  </compound>
+  <compound refid="dir_935036cbff0f3eda914ea994658e6b86" kind="dir"><name>C:/QTT/Prufer</name>
+  </compound>
+  <compound refid="dir_7ade2b00d1ea63b77325b74a453e11b5" kind="dir"><name>C:/QTT</name>
+  </compound>
+</doxygenindex>

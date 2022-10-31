@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="node_8cpp" kind="file" language="C++">
+    <compoundname>node.cpp</compoundname>
+    <includes refid="node_8h" local="yes">node.h</includes>
+    <incdepgraph>
+      <node id="46">
+        <label>node.h</label>
+        <link refid="node_8h"/>
+        <childnode refid="47" relation="include">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>vector</label>
+      </node>
+      <node id="45">
+        <label>C:/QTT/Prufer/node.cpp</label>
+        <link refid="node_8cpp"/>
+        <childnode refid="46" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="node_8h" kindref="compound">node.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><ref refid="class_node_1ad7a34779cad45d997bfd6d3d8043c75f" kindref="member">Node::Node</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>info)<sp/></highlight><highlight class="comment">//<sp/>Node::<sp/>Всегда<sp/>ставится<sp/>перед<sp/>методом,<sp/>который<sp/>он<sp/>реализует</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;info<sp/>=<sp/><ref refid="class_node_1a9d0627058327302f27c2b8e3b69bcf72" kindref="member">info</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="class_node_1ad8184598cdea70e4bbdfd76f2b0f9e85" kindref="member">parent</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><ref refid="class_node_1ad7a34779cad45d997bfd6d3d8043c75f" kindref="member">Node::Node</ref>()</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+    </programlisting>
+    <location file="C:/QTT/Prufer/node.cpp"/>
+  </compounddef>
+</doxygen>

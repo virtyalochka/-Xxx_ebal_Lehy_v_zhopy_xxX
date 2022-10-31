@@ -1,0 +1,128 @@
+.TH "Tree" 3 "Mon Oct 31 2022" "Version 1.6" "Prufer" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Tree
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <tree\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBTree\fP ()"
+.br
+.ti -1c
+.RI "\fBTree\fP (\fBNode\fP *\fBroot\fP)"
+.br
+.ti -1c
+.RI "void \fBAdd\fP (\fBNode\fP *parent, \fBNode\fP *child)"
+.br
+.ti -1c
+.RI "void \fBprint1\fP (\fBNode\fP *p)"
+.br
+.ti -1c
+.RI "void \fBprint\fP (\fBNode\fP *p, int tab)"
+.br
+.ti -1c
+.RI "void \fBcreate\fP ()"
+.br
+.ti -1c
+.RI "\fBNode\fP * \fBdelete_listok\fP (\fBNode\fP *listok)"
+.br
+.ti -1c
+.RI "\fBNode\fP * \fBFind_Node_by_info\fP (\fBNode\fP *p, int info)"
+.br
+.ti -1c
+.RI "void \fBchange_info\fP (vector< int > v_new)"
+.br
+.ti -1c
+.RI "vector< \fBNode\fP * > \fBget_listiks\fP (\fBNode\fP *p)"
+.br
+.ti -1c
+.RI "vector< \fBNode\fP * > \fBget_list_of_listiks\fP (\fBNode\fP *p)"
+.br
+.ti -1c
+.RI "void \fBprint_listiks\fP ()"
+.br
+.ti -1c
+.RI "\fBNode\fP * \fBfind_min_listiks\fP ()"
+.br
+.ti -1c
+.RI "void \fBprint_prufer\fP ()"
+.br
+.ti -1c
+.RI "\fBNode\fP * \fBdelete_root_with_one_child\fP ()"
+.br
+.ti -1c
+.RI "vector< int > \fBget_pruf_cod\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBNode\fP * \fBroot\fP"
+.br
+.ti -1c
+.RI "int \fBn\fP"
+.br
+.ti -1c
+.RI "vector< \fBNode\fP * > \fBlistiks\fP"
+.br
+.ti -1c
+.RI "vector< int > \fBprufer\fP"
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Tree::Tree ()"
+
+.SS "Tree::Tree (\fBNode\fP * root)"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "void Tree::Add (\fBNode\fP * parent, \fBNode\fP * child)"
+
+.SS "void Tree::change_info (vector< int > v_new)"
+
+.SS "void Tree::create ()"
+
+.SS "\fBNode\fP * Tree::delete_listok (\fBNode\fP * listok)"
+
+.SS "\fBNode\fP * Tree::delete_root_with_one_child ()"
+
+.SS "\fBNode\fP * Tree::find_min_listiks ()"
+
+.SS "\fBNode\fP * Tree::Find_Node_by_info (\fBNode\fP * p, int info)"
+
+.SS "vector< \fBNode\fP * > Tree::get_list_of_listiks (\fBNode\fP * p)"
+
+.SS "vector< \fBNode\fP * > Tree::get_listiks (\fBNode\fP * p)"
+
+.SS "vector< int > Tree::get_pruf_cod ()"
+
+.SS "void Tree::print (\fBNode\fP * p, int tab)"
+
+.SS "void Tree::print1 (\fBNode\fP * p)"
+
+.SS "void Tree::print_listiks ()"
+
+.SS "void Tree::print_prufer ()"
+
+.SH "Member Data Documentation"
+.PP 
+.SS "vector<\fBNode\fP*> Tree::listiks"
+
+.SS "int Tree::n"
+
+.SS "vector<int> Tree::prufer"
+
+.SS "\fBNode\fP* Tree::root"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Prufer from the source code\&.

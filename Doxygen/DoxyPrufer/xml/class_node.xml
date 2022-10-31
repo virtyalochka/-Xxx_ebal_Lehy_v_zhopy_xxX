@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_node" kind="class" language="C++" prot="public">
+    <compoundname>Node</compoundname>
+    <includes refid="node_8h" local="no">node.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_node_1a9d0627058327302f27c2b8e3b69bcf72" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Node::info</definition>
+        <argsstring></argsstring>
+        <name>info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Prufer/node.h" line="11" column="1" bodyfile="C:/QTT/Prufer/node.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_node_1ad8184598cdea70e4bbdfd76f2b0f9e85" prot="public" static="no" mutable="no">
+        <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+        <definition>Node* Node::parent</definition>
+        <argsstring></argsstring>
+        <name>parent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Prufer/node.h" line="12" column="1" bodyfile="C:/QTT/Prufer/node.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_node_1acc82c6348fd723e07aaf27bda5c2ea8a" prot="public" static="no" mutable="no">
+        <type>vector&lt; <ref refid="class_node" kindref="compound">Node</ref> * &gt;</type>
+        <definition>vector&lt;Node*&gt; Node::childs</definition>
+        <argsstring></argsstring>
+        <name>childs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Prufer/node.h" line="13" column="1" bodyfile="C:/QTT/Prufer/node.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_node_1a448d242b74cb8422bf239d92267c53f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Node::Node</definition>
+        <argsstring>(int info)</argsstring>
+        <name>Node</name>
+        <param>
+          <type>int</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Prufer/node.h" line="14" column="1" bodyfile="C:/QTT/Prufer/node.cpp" bodystart="3" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="class_node_1ad7a34779cad45d997bfd6d3d8043c75f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Node::Node</definition>
+        <argsstring>()</argsstring>
+        <name>Node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Prufer/node.h" line="15" column="1" bodyfile="C:/QTT/Prufer/node.cpp" bodystart="9" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="9">
+        <label>Node</label>
+        <link refid="class_node"/>
+        <childnode refid="9" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/QTT/Prufer/node.h" line="9" column="1" bodyfile="C:/QTT/Prufer/node.h" bodystart="8" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_node_1acc82c6348fd723e07aaf27bda5c2ea8a" prot="public" virt="non-virtual"><scope>Node</scope><name>childs</name></member>
+      <member refid="class_node_1a9d0627058327302f27c2b8e3b69bcf72" prot="public" virt="non-virtual"><scope>Node</scope><name>info</name></member>
+      <member refid="class_node_1a448d242b74cb8422bf239d92267c53f1" prot="public" virt="non-virtual"><scope>Node</scope><name>Node</name></member>
+      <member refid="class_node_1ad7a34779cad45d997bfd6d3d8043c75f" prot="public" virt="non-virtual"><scope>Node</scope><name>Node</name></member>
+      <member refid="class_node_1ad8184598cdea70e4bbdfd76f2b0f9e85" prot="public" virt="non-virtual"><scope>Node</scope><name>parent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

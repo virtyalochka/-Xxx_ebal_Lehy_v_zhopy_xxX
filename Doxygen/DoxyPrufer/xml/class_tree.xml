@@ -1,0 +1,362 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_tree" kind="class" language="C++" prot="public">
+    <compoundname>Tree</compoundname>
+    <includes refid="tree_8h" local="no">tree.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_tree_1ad8e46ce0aead5778cbdd784d1e370d5f" prot="public" static="no" mutable="no">
+        <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+        <definition>Node* Tree::root</definition>
+        <argsstring></argsstring>
+        <name>root</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Prufer/tree.h" line="11" column="1" bodyfile="C:/QTT/Prufer/tree.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tree_1af99cb1765b0249e5d79541313199786c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Tree::n</definition>
+        <argsstring></argsstring>
+        <name>n</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Prufer/tree.h" line="12" column="1" bodyfile="C:/QTT/Prufer/tree.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tree_1ab4f6271eb3d30383287bbb634b90e3b5" prot="public" static="no" mutable="no">
+        <type>vector&lt; <ref refid="class_node" kindref="compound">Node</ref> * &gt;</type>
+        <definition>vector&lt;Node*&gt; Tree::listiks</definition>
+        <argsstring></argsstring>
+        <name>listiks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Prufer/tree.h" line="13" column="1" bodyfile="C:/QTT/Prufer/tree.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tree_1ac173ac7a6fb3d48b0c2226ec848966ee" prot="public" static="no" mutable="no">
+        <type>vector&lt; int &gt;</type>
+        <definition>vector&lt;int&gt; Tree::prufer</definition>
+        <argsstring></argsstring>
+        <name>prufer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Prufer/tree.h" line="14" column="1" bodyfile="C:/QTT/Prufer/tree.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tree_1ad376a7c639d857312f5de2ef47482f68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Tree::Tree</definition>
+        <argsstring>()</argsstring>
+        <name>Tree</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Prufer/tree.h" line="16" column="1" bodyfile="C:/QTT/Prufer/tree.cpp" bodystart="13" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tree_1ac81e597c6214a8b3ab5bd0c0a1d52c27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Tree::Tree</definition>
+        <argsstring>(Node *root)</argsstring>
+        <name>Tree</name>
+        <param>
+          <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+          <declname>root</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Prufer/tree.h" line="17" column="1" bodyfile="C:/QTT/Prufer/tree.cpp" bodystart="22" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tree_1a2fd711fc3360481e87185a7a70615865" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tree::Add</definition>
+        <argsstring>(Node *parent, Node *child)</argsstring>
+        <name>Add</name>
+        <param>
+          <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+          <declname>child</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Prufer/tree.h" line="18" column="1" bodyfile="C:/QTT/Prufer/tree.cpp" bodystart="28" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tree_1acc690f24219bb3816a7552b443bfb02b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tree::print1</definition>
+        <argsstring>(Node *p)</argsstring>
+        <name>print1</name>
+        <param>
+          <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Prufer/tree.h" line="19" column="1" bodyfile="C:/QTT/Prufer/tree.cpp" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tree_1ad041f83eddd83c74f689dae8283c054f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tree::print</definition>
+        <argsstring>(Node *p, int tab)</argsstring>
+        <name>print</name>
+        <param>
+          <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>tab</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Prufer/tree.h" line="20" column="1" bodyfile="C:/QTT/Prufer/tree.cpp" bodystart="43" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tree_1a95ad032dcc32977751fa60d4715f7c18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tree::create</definition>
+        <argsstring>()</argsstring>
+        <name>create</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Prufer/tree.h" line="21" column="1" bodyfile="C:/QTT/Prufer/tree.cpp" bodystart="53" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tree_1a0059ab7470d1df6b88ec6d275067bcdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+        <definition>Node * Tree::delete_listok</definition>
+        <argsstring>(Node *listok)</argsstring>
+        <name>delete_listok</name>
+        <param>
+          <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+          <declname>listok</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Prufer/tree.h" line="22" column="1" bodyfile="C:/QTT/Prufer/tree.cpp" bodystart="77" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tree_1a16def61abcbc1dbb631a664e7bb02c98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+        <definition>Node * Tree::Find_Node_by_info</definition>
+        <argsstring>(Node *p, int info)</argsstring>
+        <name>Find_Node_by_info</name>
+        <param>
+          <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Prufer/tree.h" line="23" column="1" bodyfile="C:/QTT/Prufer/tree.cpp" bodystart="90" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tree_1a83de2e5a9d0269b1d4a136533b288d19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tree::change_info</definition>
+        <argsstring>(vector&lt; int &gt; v_new)</argsstring>
+        <name>change_info</name>
+        <param>
+          <type>vector&lt; int &gt;</type>
+          <declname>v_new</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Prufer/tree.h" line="25" column="1" bodyfile="C:/QTT/Prufer/tree.cpp" bodystart="114" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tree_1a8713847783793b6d5b0580b34d406f6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; <ref refid="class_node" kindref="compound">Node</ref> * &gt;</type>
+        <definition>vector&lt; Node * &gt; Tree::get_listiks</definition>
+        <argsstring>(Node *p)</argsstring>
+        <name>get_listiks</name>
+        <param>
+          <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Prufer/tree.h" line="26" column="1" bodyfile="C:/QTT/Prufer/tree.cpp" bodystart="132" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tree_1a1feaf70139e6802c0b940c7c7fae9299" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; <ref refid="class_node" kindref="compound">Node</ref> * &gt;</type>
+        <definition>vector&lt; Node * &gt; Tree::get_list_of_listiks</definition>
+        <argsstring>(Node *p)</argsstring>
+        <name>get_list_of_listiks</name>
+        <param>
+          <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Prufer/tree.h" line="27" column="1" bodyfile="C:/QTT/Prufer/tree.cpp" bodystart="148" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tree_1ac2c37627e5e75085896379f2855d4306" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tree::print_listiks</definition>
+        <argsstring>()</argsstring>
+        <name>print_listiks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Prufer/tree.h" line="28" column="1" bodyfile="C:/QTT/Prufer/tree.cpp" bodystart="163" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tree_1ab640efe82cc69b28a9ddd61ac4410a89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+        <definition>Node * Tree::find_min_listiks</definition>
+        <argsstring>()</argsstring>
+        <name>find_min_listiks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Prufer/tree.h" line="29" column="1" bodyfile="C:/QTT/Prufer/tree.cpp" bodystart="175" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tree_1a5b7c6c2e01f8787b9ce3fb1684fc847b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tree::print_prufer</definition>
+        <argsstring>()</argsstring>
+        <name>print_prufer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Prufer/tree.h" line="30" column="1" bodyfile="C:/QTT/Prufer/tree.cpp" bodystart="194" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tree_1ae0a6d8260dafecfd861410bfee87a868" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+        <definition>Node * Tree::delete_root_with_one_child</definition>
+        <argsstring>()</argsstring>
+        <name>delete_root_with_one_child</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Prufer/tree.h" line="31" column="1" bodyfile="C:/QTT/Prufer/tree.cpp" bodystart="209" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tree_1a723ce7ab4f1030e95a959e11a22833e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; int &gt;</type>
+        <definition>vector&lt; int &gt; Tree::get_pruf_cod</definition>
+        <argsstring>()</argsstring>
+        <name>get_pruf_cod</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/QTT/Prufer/tree.h" line="33" column="1" bodyfile="C:/QTT/Prufer/tree.cpp" bodystart="229" bodyend="272"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="12">
+        <label>Node</label>
+        <link refid="class_node"/>
+        <childnode refid="12" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="11">
+        <label>Tree</label>
+        <link refid="class_tree"/>
+        <childnode refid="12" relation="usage">
+          <edgelabel>root</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/QTT/Prufer/tree.h" line="9" column="1" bodyfile="C:/QTT/Prufer/tree.h" bodystart="8" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_tree_1a2fd711fc3360481e87185a7a70615865" prot="public" virt="non-virtual"><scope>Tree</scope><name>Add</name></member>
+      <member refid="class_tree_1a83de2e5a9d0269b1d4a136533b288d19" prot="public" virt="non-virtual"><scope>Tree</scope><name>change_info</name></member>
+      <member refid="class_tree_1a95ad032dcc32977751fa60d4715f7c18" prot="public" virt="non-virtual"><scope>Tree</scope><name>create</name></member>
+      <member refid="class_tree_1a0059ab7470d1df6b88ec6d275067bcdb" prot="public" virt="non-virtual"><scope>Tree</scope><name>delete_listok</name></member>
+      <member refid="class_tree_1ae0a6d8260dafecfd861410bfee87a868" prot="public" virt="non-virtual"><scope>Tree</scope><name>delete_root_with_one_child</name></member>
+      <member refid="class_tree_1ab640efe82cc69b28a9ddd61ac4410a89" prot="public" virt="non-virtual"><scope>Tree</scope><name>find_min_listiks</name></member>
+      <member refid="class_tree_1a16def61abcbc1dbb631a664e7bb02c98" prot="public" virt="non-virtual"><scope>Tree</scope><name>Find_Node_by_info</name></member>
+      <member refid="class_tree_1a1feaf70139e6802c0b940c7c7fae9299" prot="public" virt="non-virtual"><scope>Tree</scope><name>get_list_of_listiks</name></member>
+      <member refid="class_tree_1a8713847783793b6d5b0580b34d406f6d" prot="public" virt="non-virtual"><scope>Tree</scope><name>get_listiks</name></member>
+      <member refid="class_tree_1a723ce7ab4f1030e95a959e11a22833e7" prot="public" virt="non-virtual"><scope>Tree</scope><name>get_pruf_cod</name></member>
+      <member refid="class_tree_1ab4f6271eb3d30383287bbb634b90e3b5" prot="public" virt="non-virtual"><scope>Tree</scope><name>listiks</name></member>
+      <member refid="class_tree_1af99cb1765b0249e5d79541313199786c" prot="public" virt="non-virtual"><scope>Tree</scope><name>n</name></member>
+      <member refid="class_tree_1ad041f83eddd83c74f689dae8283c054f" prot="public" virt="non-virtual"><scope>Tree</scope><name>print</name></member>
+      <member refid="class_tree_1acc690f24219bb3816a7552b443bfb02b" prot="public" virt="non-virtual"><scope>Tree</scope><name>print1</name></member>
+      <member refid="class_tree_1ac2c37627e5e75085896379f2855d4306" prot="public" virt="non-virtual"><scope>Tree</scope><name>print_listiks</name></member>
+      <member refid="class_tree_1a5b7c6c2e01f8787b9ce3fb1684fc847b" prot="public" virt="non-virtual"><scope>Tree</scope><name>print_prufer</name></member>
+      <member refid="class_tree_1ac173ac7a6fb3d48b0c2226ec848966ee" prot="public" virt="non-virtual"><scope>Tree</scope><name>prufer</name></member>
+      <member refid="class_tree_1ad8e46ce0aead5778cbdd784d1e370d5f" prot="public" virt="non-virtual"><scope>Tree</scope><name>root</name></member>
+      <member refid="class_tree_1ad376a7c639d857312f5de2ef47482f68" prot="public" virt="non-virtual"><scope>Tree</scope><name>Tree</name></member>
+      <member refid="class_tree_1ac81e597c6214a8b3ab5bd0c0a1d52c27" prot="public" virt="non-virtual"><scope>Tree</scope><name>Tree</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
